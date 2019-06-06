@@ -5,6 +5,8 @@
 Examples projects using `SwiftUI` & `Combine`.  
 Include Layout, UI, Animations, Gestures, Draw and Data. See projects files in `Examples` folder. If you have project, make a pull request or create issue with link to repo. See section [Authors](#authors).
 
+Interested in UI and animations in `UIKit`? See project [awesome-ios-ui](https://github.com/ivanvorobei/awesome-ios-ui).
+
 ## Navigate
 
 - [Creating And Combining Views](#creating-and-combining-views)
@@ -90,7 +92,7 @@ Include Layout, UI, Animations, Gestures, Draw and Data. See projects files in `
 
 #### Jike
 
-<img src="Resources/Jike.png" width="650">
+<img src="Resources/Jike.png" width="750">
 
 #### Flux
 
