@@ -22,6 +22,7 @@ Include Layout, UI, Animations, Gestures, Draw and Data. See projects files in `
 - [Time Travel](#time-travel)
 - [Drawing Paths And Shapes](#drawing-paths-and-shapes)
 - [Animating Views And Transitions](#animating-views-and-transitions)
+- [Flux](#flux)
 
 ## Projects
 
@@ -39,7 +40,7 @@ Include Layout, UI, Animations, Gestures, Draw and Data. See projects files in `
 
 #### 2048 Game
 
-<img src="Resources/2048game.png" width="250">
+<img src="Resources/2048game.png" width="260">
 
 #### Composing Complex Interfaces
 
@@ -85,6 +86,10 @@ Include Layout, UI, Animations, Gestures, Draw and Data. See projects files in `
 #### Animating Views And Transitions
 
 <img src="Resources/AnimatingViewsAndTransitions.png" width="650">
+
+#### Flux
+
+<img src="Resources/Flux.gif" width="260">
 
 #### Authors
 
