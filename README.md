@@ -22,6 +22,7 @@ Include Layout, UI, Animations, Gestures, Draw and Data. See projects files in `
 - [Time Travel](#time-travel)
 - [Drawing Paths And Shapes](#drawing-paths-and-shapes)
 - [Animating Views And Transitions](#animating-views-and-transitions)
+- [Jike](#jike)
 - [Flux](#flux)
 
 ## Projects
@@ -87,11 +88,15 @@ Include Layout, UI, Animations, Gestures, Draw and Data. See projects files in `
 
 <img src="Resources/AnimatingViewsAndTransitions.png" width="650">
 
+#### Jike
+
+<img src="Resources/Jike.png" width="650">
+
 #### Flux
 
 <img src="Resources/Flux.gif" width="260">
 
 #### Authors
 
-Thanks for [Jinxiansen](https://github.com/Jinxiansen), [ra1028](https://github.com/ra1028), [timdonnelly](https://github.com/timdonnelly), [TwoLivesLeft](https://github.com/TwoLivesLeft), [devxoul](https://github.com/devxoul), [cmtrounce](https://github.com/cmtrounce), [unixzii](https://github.com/unixzii) for examples project.
+Thanks for [Jinxiansen](https://github.com/Jinxiansen), [ra1028](https://github.com/ra1028), [timdonnelly](https://github.com/timdonnelly), [TwoLivesLeft](https://github.com/TwoLivesLeft), [devxoul](https://github.com/devxoul), [cmtrounce](https://github.com/cmtrounce), [unixzii](https://github.com/unixzii), [ra1028](https://github.com/ra1028) for examples project.
 
