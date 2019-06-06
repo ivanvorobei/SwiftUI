@@ -41,11 +41,11 @@ I add projects that use `SwiftUI`. If you have project, make a pull request.
 
 #### Example To-Do App
 
-<img src="Resources/ExampleToDoApp.png" width="700">
+<img src="Resources/ExampleToDoApp.png" width="850">
 
 #### Combine using GitHub API
 
-<img src="Resources/CombineUsingGitHubAPI.png" width="250">
+<img src="Resources/CombineUsingGitHubAPI.png" width="280">
 
 #### Interfacing With UIKit
 
@@ -53,7 +53,7 @@ I add projects that use `SwiftUI`. If you have project, make a pull request.
 
 #### GitHub Search
 
-<img src="Resources/GitHubSearch.png" width="250">
+<img src="Resources/GitHubSearch.png" width="280">
 
 ## Drawing and Animation
 
