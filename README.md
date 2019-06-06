@@ -1,9 +1,9 @@
 ## `SwiftUI` Examples Projects
 
-<a href="https://itunes.apple.com/app/id1446635818" target="_blank"><img align="left" src="https://github.com/ivanvorobei/SwiftUI/blob/master/Resources/icon.png" width="80"/></a>
+<a href="https://itunes.apple.com/app/id1446635818" target="_blank"><img align="left" src="https://github.com/ivanvorobei/SwiftUI/blob/master/Resources/icon.png" width="85"/></a>
 
 Examples projects using `SwiftUI` & `Combine`.  
-Include Layout, UI, Animations, Gestures, Draw and Data. See projects files in `Examples` folder. If you have project, make a pull request or create issue with link to repo. See section [Authors](#authors).
+Include Layout, UI, Animations, Gestures, Draw and Data. See projects files in `Examples` folder. If you have project, make a pull request or create issue with link to repo.
 
 Interested in UI and animations in `UIKit`? See project [awesome-ios-ui](https://github.com/ivanvorobei/awesome-ios-ui).
 
