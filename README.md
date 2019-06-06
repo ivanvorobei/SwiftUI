@@ -20,7 +20,7 @@ I add projects that use `SwiftUI`. If you have project, make a pull request.
 
 #### Creating And Combining Views
 
-<img src="Resources/CreatingAndCombiningViews.png" width="800">
+<img src="Resources/CreatingAndCombiningViews.png" width="600">
 
 #### Building Lists And Navigation
 
