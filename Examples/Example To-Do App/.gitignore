@@ -1,0 +1,14 @@
+.DS_Store
+.bundle
+
+**/xcuserdata
+*.pbxuser
+*.mode1v3
+
+Pods/
+Carthage/
+vendor/
+
+fastlane/report.xml
+*.ipa
+*.dSYM.zip
