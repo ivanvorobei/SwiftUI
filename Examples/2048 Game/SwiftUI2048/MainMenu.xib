@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14810.11" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14766.13"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AppDelegate" customModule="_048"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <command title="New Game" input="n" id="TrP-zF-WNW">
+            <keyModifierFlags key="modifierFlags" command="YES"/>
+            <alternates>
+                <commandAlternate title="a" actionName="newGame:" id="Fnd-9b-r2T"/>
+            </alternates>
+            <connections>
+                <action selector="newGame:" destination="-2" id="AQs-UV-nU7"/>
+            </connections>
+        </command>
+    </objects>
+</document>
