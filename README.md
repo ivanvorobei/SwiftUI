@@ -1,20 +1,21 @@
 # SwiftUI Examples Projects
 
-I add projects that use `SwiftUI`. If you have project, make a pull request.
+I add projects that use `SwiftUI`. See projects files in `Examples` folder. If you have project, make a pull request.
 
 ## Navigate
 
-- [Creating And Combining Views](#1)
-- [Building Lists And Navigation](#1)
-- [Handling User Input](#1)
-- [Composing Complex Interfaces](#1)
-- [Working With UIControls](#1)
-- [Example To-Do App](#1)
-- [Combine using GitHub API](#1)
-- [Interfacing With UIKit](#1)
-- [Drawing and Animation](#1)
-    - [Drawing Paths And Shapes](#1)
-    - [Animating Views And Transitions](#1)
+- [Creating And Combining Views](#creating-and-combining-views)
+- [Building Lists And Navigation](#building-lists-and-navigation)
+- [Handling User Input](#handling-user-input)
+- [Composing Complex Interfaces](#composing-complex-interfaces)
+- [Working With UIControls](#working-with-uicontrols)
+- [Example To-Do App](#example-to-do-app)
+- [Combine using GitHub API](#combine-using-github-api)
+- [Interfacing With UIKit](#interfacing-with-uikit)
+- [GitHub Search](#github-search)
+- [Drawing and Animation](#drawing-and-animation)
+    - [Drawing Paths And Shapes](#drawing-paths-and-shapes)
+    - [Animating Views And Transitions](#animating-views-and-transitions)
 
 ## Projects
 
@@ -45,7 +46,7 @@ I add projects that use `SwiftUI`. If you have project, make a pull request.
 
 #### Combine using GitHub API
 
-<img src="Resources/CombineUsingGitHubAPI.png" width="280">
+<img src="Resources/CombineUsingGitHubAPI.png" width="260">
 
 #### Interfacing With UIKit
 
@@ -53,7 +54,7 @@ I add projects that use `SwiftUI`. If you have project, make a pull request.
 
 #### GitHub Search
 
-<img src="Resources/GitHubSearch.png" width="280">
+<img src="Resources/GitHubSearch.png" width="260">
 
 ## Drawing and Animation
 
@@ -64,4 +65,8 @@ I add projects that use `SwiftUI`. If you have project, make a pull request.
 #### Animating Views And Transitions
 
 <img src="Resources/AnimatingViewsAndTransitions.png" width="650">
+
+#### Authors
+
+Thanks for [Jinxiansen](https://github.com/Jinxiansen), [ra1028](https://github.com/ra1028) & [devxoul](https://github.com/devxoul) for examples project.
 
