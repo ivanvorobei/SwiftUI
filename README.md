@@ -60,7 +60,7 @@ If you have project, make a pull request.
 
 ### Time Travel
 
-<img src="Resources/TimeTravel.gif" width="260">
+<img src="Resources/TimeTravel.gif" width="250">
 
 ## Drawing and Animation
 
