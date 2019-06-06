@@ -24,44 +24,44 @@ I add projects that use `SwiftUI`. If you have project, make a pull request.
 
 #### Building Lists And Navigation
 
-<img src="Resources/BuildingListsAndNavigation.png" width="80%">
+<img src="Resources/BuildingListsAndNavigation.png" width="650">
 
 #### Handling User Input
 
-<img src="Resources/HandlingUserInput.png" width="80%">
+<img src="Resources/HandlingUserInput.png" width="650">
 
 #### Composing Complex Interfaces
 
-<img src="Resources/ComposingComplexInterfaces.png" width="80%">
+<img src="Resources/ComposingComplexInterfaces.png" width="650">
 
 #### Working With UIControls
 
-<img src="Resources/WorkingWithUIControls.png" width="80%">
-<img src="Resources/WorkingWithUIControls2.png" width="80%">
+<img src="Resources/WorkingWithUIControls.png" width="650">
+<img src="Resources/WorkingWithUIControls2.png" width="650">
 
 #### Example To-Do App
 
-<img src="Resources/ExampleToDoApp.png" width="80%">
+<img src="Resources/ExampleToDoApp.png" width="700">
 
 #### Combine using GitHub API
 
-<img src="Resources/CombineUsingGitHubAPI.png" width="80%">
+<img src="Resources/CombineUsingGitHubAPI.png" width="250">
 
 #### Interfacing With UIKit
 
-<img src="Resources/InterfacingWithUIKit.png" width="80%">
+<img src="Resources/InterfacingWithUIKit.png" width="650">
 
 #### GitHub Search
 
-<img src="Resources/GitHubSearch.png" width="80%">
+<img src="Resources/GitHubSearch.png" width="250">
 
 ## Drawing and Animation
 
 #### Drawing Paths And Shapes
 
-<img src="Resources/DrawingPathsAndShapes.png" width="80%">
+<img src="Resources/DrawingPathsAndShapes.png" width="650">
 
 #### Animating Views And Transitions
 
-<img src="Resources/AnimatingViewsAndTransitions.png" width="80%">
+<img src="Resources/AnimatingViewsAndTransitions.png" width="650">
 
