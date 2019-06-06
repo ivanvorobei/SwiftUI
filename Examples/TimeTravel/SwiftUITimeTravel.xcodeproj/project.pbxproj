@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22316DC622A7B255004124F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22316DC522A7B255004124F2 /* AppDelegate.swift */; };
+		22316DC822A7B255004124F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22316DC722A7B255004124F2 /* SceneDelegate.swift */; };
+		22316DCA22A7B255004124F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22316DC922A7B255004124F2 /* ContentView.swift */; };
+		22316DCC22A7B255004124F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22316DCB22A7B255004124F2 /* Assets.xcassets */; };
+		22316DCF22A7B255004124F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22316DCE22A7B255004124F2 /* Preview Assets.xcassets */; };
+		22316DD222A7B255004124F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22316DD022A7B255004124F2 /* LaunchScreen.storyboard */; };
+		22316DE722A7B287004124F2 /* TodoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22316DE022A7B263004124F2 /* TodoListItemView.swift */; };
+		22316DE822A7B287004124F2 /* ModalDimmingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22316DE122A7B263004124F2 /* ModalDimmingView.swift */; };
+		22316DE922A7B287004124F2 /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22316DE222A7B263004124F2 /* AddItemView.swift */; };
+		22316DEA22A7B28B004124F2 /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22316DE422A7B263004124F2 /* TodoItem.swift */; };
+		22316DEB22A7B28B004124F2 /* TodoState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22316DE522A7B263004124F2 /* TodoState.swift */; };
+		22316DEC22A7B28D004124F2 /* TodoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22316DE622A7B263004124F2 /* TodoListView.swift */; };
+		22316DED22A7B291004124F2 /* StateMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22316DDA22A7B263004124F2 /* StateMachine.swift */; };
+		22316DEE22A7B291004124F2 /* TimeTravelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22316DDB22A7B263004124F2 /* TimeTravelView.swift */; };
+		22316DEF22A7B291004124F2 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22316DDC22A7B263004124F2 /* Store.swift */; };
+		22316DF022A7B291004124F2 /* TimeTravelBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22316DDD22A7B263004124F2 /* TimeTravelBarView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22316DC222A7B255004124F2 /* SwiftUITimeTravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUITimeTravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22316DC522A7B255004124F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22316DC722A7B255004124F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		22316DC922A7B255004124F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		22316DCB22A7B255004124F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22316DCE22A7B255004124F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		22316DD122A7B255004124F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22316DD322A7B255004124F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22316DDA22A7B263004124F2 /* StateMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateMachine.swift; sourceTree = "<group>"; };
+		22316DDB22A7B263004124F2 /* TimeTravelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTravelView.swift; sourceTree = "<group>"; };
+		22316DDC22A7B263004124F2 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		22316DDD22A7B263004124F2 /* TimeTravelBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTravelBarView.swift; sourceTree = "<group>"; };
+		22316DE022A7B263004124F2 /* TodoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListItemView.swift; sourceTree = "<group>"; };
+		22316DE122A7B263004124F2 /* ModalDimmingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalDimmingView.swift; sourceTree = "<group>"; };
+		22316DE222A7B263004124F2 /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
+		22316DE422A7B263004124F2 /* TodoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
+		22316DE522A7B263004124F2 /* TodoState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoState.swift; sourceTree = "<group>"; };
+		22316DE622A7B263004124F2 /* TodoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListView.swift; sourceTree = "<group>"; };
+		22316DF122A7B3FB004124F2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22316DBF22A7B255004124F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22316DB922A7B255004124F2 = {
+			isa = PBXGroup;
+			children = (
+				22316DF122A7B3FB004124F2 /* README.md */,
+				22316DC422A7B255004124F2 /* SwiftUITimeTravel */,
+				22316DC322A7B255004124F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22316DC322A7B255004124F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22316DC222A7B255004124F2 /* SwiftUITimeTravel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22316DC422A7B255004124F2 /* SwiftUITimeTravel */ = {
+			isa = PBXGroup;
+			children = (
+				22316DD922A7B263004124F2 /* TimeTravelView */,
+				22316DDE22A7B263004124F2 /* TodoList */,
+				22316DC522A7B255004124F2 /* AppDelegate.swift */,
+				22316DC722A7B255004124F2 /* SceneDelegate.swift */,
+				22316DC922A7B255004124F2 /* ContentView.swift */,
+				22316DCB22A7B255004124F2 /* Assets.xcassets */,
+				22316DD022A7B255004124F2 /* LaunchScreen.storyboard */,
+				22316DD322A7B255004124F2 /* Info.plist */,
+				22316DCD22A7B255004124F2 /* Preview Content */,
+			);
+			path = SwiftUITimeTravel;
+			sourceTree = "<group>";
+		};
+		22316DCD22A7B255004124F2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				22316DCE22A7B255004124F2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		22316DD922A7B263004124F2 /* TimeTravelView */ = {
+			isa = PBXGroup;
+			children = (
+				22316DDA22A7B263004124F2 /* StateMachine.swift */,
+				22316DDB22A7B263004124F2 /* TimeTravelView.swift */,
+				22316DDC22A7B263004124F2 /* Store.swift */,
+				22316DDD22A7B263004124F2 /* TimeTravelBarView.swift */,
+			);
+			path = TimeTravelView;
+			sourceTree = "<group>";
+		};
+		22316DDE22A7B263004124F2 /* TodoList */ = {
+			isa = PBXGroup;
+			children = (
+				22316DDF22A7B263004124F2 /* Internal Views */,
+				22316DE322A7B263004124F2 /* Model */,
+				22316DE622A7B263004124F2 /* TodoListView.swift */,
+			);
+			path = TodoList;
+			sourceTree = "<group>";
+		};
+		22316DDF22A7B263004124F2 /* Internal Views */ = {
+			isa = PBXGroup;
+			children = (
+				22316DE022A7B263004124F2 /* TodoListItemView.swift */,
+				22316DE122A7B263004124F2 /* ModalDimmingView.swift */,
+				22316DE222A7B263004124F2 /* AddItemView.swift */,
+			);
+			path = "Internal Views";
+			sourceTree = "<group>";
+		};
+		22316DE322A7B263004124F2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				22316DE422A7B263004124F2 /* TodoItem.swift */,
+				22316DE522A7B263004124F2 /* TodoState.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22316DC122A7B255004124F2 /* SwiftUITimeTravel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22316DD622A7B255004124F2 /* Build configuration list for PBXNativeTarget "SwiftUITimeTravel" */;
+			buildPhases = (
+				22316DBE22A7B255004124F2 /* Sources */,
+				22316DBF22A7B255004124F2 /* Frameworks */,
+				22316DC022A7B255004124F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftUITimeTravel;
+			productName = SwiftUITimeTravel;
+			productReference = 22316DC222A7B255004124F2 /* SwiftUITimeTravel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22316DBA22A7B255004124F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Tim Donnelly";
+				TargetAttributes = {
+					22316DC122A7B255004124F2 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 22316DBD22A7B255004124F2 /* Build configuration list for PBXProject "SwiftUITimeTravel" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22316DB922A7B255004124F2;
+			productRefGroup = 22316DC322A7B255004124F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22316DC122A7B255004124F2 /* SwiftUITimeTravel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22316DC022A7B255004124F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22316DD222A7B255004124F2 /* LaunchScreen.storyboard in Resources */,
+				22316DCF22A7B255004124F2 /* Preview Assets.xcassets in Resources */,
+				22316DCC22A7B255004124F2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22316DBE22A7B255004124F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22316DEA22A7B28B004124F2 /* TodoItem.swift in Sources */,
+				22316DEE22A7B291004124F2 /* TimeTravelView.swift in Sources */,
+				22316DEB22A7B28B004124F2 /* TodoState.swift in Sources */,
+				22316DEF22A7B291004124F2 /* Store.swift in Sources */,
+				22316DC622A7B255004124F2 /* AppDelegate.swift in Sources */,
+				22316DED22A7B291004124F2 /* StateMachine.swift in Sources */,
+				22316DE922A7B287004124F2 /* AddItemView.swift in Sources */,
+				22316DF022A7B291004124F2 /* TimeTravelBarView.swift in Sources */,
+				22316DE722A7B287004124F2 /* TodoListItemView.swift in Sources */,
+				22316DEC22A7B28D004124F2 /* TodoListView.swift in Sources */,
+				22316DE822A7B287004124F2 /* ModalDimmingView.swift in Sources */,
+				22316DC822A7B255004124F2 /* SceneDelegate.swift in Sources */,
+				22316DCA22A7B255004124F2 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22316DD022A7B255004124F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22316DD122A7B255004124F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22316DD422A7B255004124F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22316DD522A7B255004124F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22316DD722A7B255004124F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "SwiftUITimeTravel/Preview\\ Content";
+				DEVELOPMENT_TEAM = MM763NMPEA;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SwiftUITimeTravel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tdonnelly.SwiftUITimeTravel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22316DD822A7B255004124F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "SwiftUITimeTravel/Preview\\ Content";
+				DEVELOPMENT_TEAM = MM763NMPEA;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SwiftUITimeTravel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tdonnelly.SwiftUITimeTravel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22316DBD22A7B255004124F2 /* Build configuration list for PBXProject "SwiftUITimeTravel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22316DD422A7B255004124F2 /* Debug */,
+				22316DD522A7B255004124F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22316DD622A7B255004124F2 /* Build configuration list for PBXNativeTarget "SwiftUITimeTravel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22316DD722A7B255004124F2 /* Debug */,
+				22316DD822A7B255004124F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22316DBA22A7B255004124F2 /* Project object */;
+}

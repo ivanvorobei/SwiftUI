@@ -14,6 +14,7 @@ If you have project, make a pull request.
 - [Combine using GitHub API](#combine-using-github-api)
 - [Interfacing With UIKit](#interfacing-with-uikit)
 - [GitHub Search](#github-search)
+- [Time Travel](#time-travel)
 - [Drawing and Animation](#drawing-and-animation)
     - [Drawing Paths And Shapes](#drawing-paths-and-shapes)
     - [Animating Views And Transitions](#animating-views-and-transitions)
@@ -56,6 +57,10 @@ If you have project, make a pull request.
 #### GitHub Search
 
 <img src="Resources/GitHubSearch.png" width="260">
+
+### Time Travel
+
+<img src="Resources/TimveTravel.gif" width="260">
 
 ## Drawing and Animation
 
