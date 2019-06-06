@@ -10,6 +10,7 @@ Include Layout, UI, Animations, Gestures, Draw and Data. See projects files in `
 - [Creating And Combining Views](#creating-and-combining-views)
 - [Building Lists And Navigation](#building-lists-and-navigation)
 - [Handling User Input](#handling-user-input)
+- [2048 Game](#2048-game)
 - [Composing Complex Interfaces](#composing-complex-interfaces)
 - [Working With UIControls](#working-with-uicontrols)
 - [Example To-Do App](#example-to-do-app)
@@ -35,6 +36,10 @@ Include Layout, UI, Animations, Gestures, Draw and Data. See projects files in `
 #### Handling User Input
 
 <img src="Resources/HandlingUserInput.png" width="650">
+
+#### 2048 Game
+
+<img src="Resources/2048game.png" width="250">
 
 #### Composing Complex Interfaces
 
@@ -83,5 +88,5 @@ Include Layout, UI, Animations, Gestures, Draw and Data. See projects files in `
 
 #### Authors
 
-Thanks for [Jinxiansen](https://github.com/Jinxiansen), [ra1028](https://github.com/ra1028), [timdonnelly](https://github.com/timdonnelly), [TwoLivesLeft](https://github.com/TwoLivesLeft) & [devxoul](https://github.com/devxoul) for examples project.
+Thanks for [Jinxiansen](https://github.com/Jinxiansen), [ra1028](https://github.com/ra1028), [timdonnelly](https://github.com/timdonnelly), [TwoLivesLeft](https://github.com/TwoLivesLeft), [devxoul](https://github.com/devxoul), [cmtrounce](https://github.com/cmtrounce), [unixzii](https://github.com/unixzii) for examples project.
 
