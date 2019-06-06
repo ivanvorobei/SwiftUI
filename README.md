@@ -56,7 +56,7 @@ If you have project, make a pull request.
 
 #### GitHub Search
 
-<img src="Resources/GitHubSearch.png" width="260">
+<img src="Resources/GitHubSearch.png" width="270">
 
 ### Time Travel
 
@@ -74,5 +74,5 @@ If you have project, make a pull request.
 
 #### Authors
 
-Thanks for [Jinxiansen](https://github.com/Jinxiansen), [ra1028](https://github.com/ra1028) & [devxoul](https://github.com/devxoul) for examples project.
+Thanks for [Jinxiansen](https://github.com/Jinxiansen), [ra1028](https://github.com/ra1028), [timdonnelly](https://github.com/timdonnelly) & [devxoul](https://github.com/devxoul) for examples project.
 
