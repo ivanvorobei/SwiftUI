@@ -11,7 +11,7 @@ If you have project, make a pull request.
 - [Composing Complex Interfaces](#composing-complex-interfaces)
 - [Working With UIControls](#working-with-uicontrols)
 - [Example To-Do App](#example-to-do-app)
-- [iPadOS Scenes](ipados-scenes)
+- [iPadOS Scenes](#ipados-scenes)
 - [Combine using GitHub API](#combine-using-github-api)
 - [Interfacing With UIKit](#interfacing-with-uikit)
 - [GitHub Search](#github-search)
