@@ -1,6 +1,7 @@
 # SwiftUI Examples Projects
 
-I add projects that use `SwiftUI`. See projects files in `Examples` folder. If you have project, make a pull request.
+I add projects that use `SwiftUI`. See projects files in `Examples` folder.  
+If you have project, make a pull request.
 
 ## Navigate
 
