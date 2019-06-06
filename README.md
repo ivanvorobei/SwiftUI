@@ -11,6 +11,7 @@ If you have project, make a pull request.
 - [Composing Complex Interfaces](#composing-complex-interfaces)
 - [Working With UIControls](#working-with-uicontrols)
 - [Example To-Do App](#example-to-do-app)
+- [iPadOS Scenes](ipados-scenes)
 - [Combine using GitHub API](#combine-using-github-api)
 - [Interfacing With UIKit](#interfacing-with-uikit)
 - [GitHub Search](#github-search)
@@ -45,6 +46,10 @@ If you have project, make a pull request.
 #### Example To-Do App
 
 <img src="Resources/ExampleToDoApp.png" width="850">
+
+#### iPadOS Scenes
+
+<img src="Resources/iPadOSScenes.jpeg" width="600">
 
 #### Combine using GitHub API
 
