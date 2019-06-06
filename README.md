@@ -1,4 +1,6 @@
-# `SwiftUI` Examples Projects
+### `SwiftUI` Examples Projects
+
+<a href="https://itunes.apple.com/app/id1446635818" target="_blank"><img align="right" src="https://github.com/ivanvorobei/SwiftUI/blob/master/Resources/icon.png" width="80"/></a>
 
 Examples projects that use `SwiftUI`. See projects files in `Examples` folder.  
 If you have project, make a pull request.
@@ -16,9 +18,8 @@ If you have project, make a pull request.
 - [Interfacing With UIKit](#interfacing-with-uikit)
 - [GitHub Search](#github-search)
 - [Time Travel](#time-travel)
-- [Drawing and Animation](#drawing-and-animation)
-    - [Drawing Paths And Shapes](#drawing-paths-and-shapes)
-    - [Animating Views And Transitions](#animating-views-and-transitions)
+- [Drawing Paths And Shapes](#drawing-paths-and-shapes)
+- [Animating Views And Transitions](#animating-views-and-transitions)
 
 ## Projects
 
@@ -66,8 +67,6 @@ If you have project, make a pull request.
 ### Time Travel
 
 <img src="Resources/TimeTravel.gif" width="250">
-
-## Drawing and Animation
 
 #### Drawing Paths And Shapes
 
