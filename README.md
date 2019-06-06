@@ -1,4 +1,4 @@
-# SwiftUI Examples Projects
+# `SwiftUI` Examples Projects
 
 Examples projects that use `SwiftUI`. See projects files in `Examples` folder.  
 If you have project, make a pull request.
@@ -79,5 +79,5 @@ If you have project, make a pull request.
 
 #### Authors
 
-Thanks for [Jinxiansen](https://github.com/Jinxiansen), [ra1028](https://github.com/ra1028), [timdonnelly](https://github.com/timdonnelly) & [devxoul](https://github.com/devxoul) for examples project.
+Thanks for [Jinxiansen](https://github.com/Jinxiansen), [ra1028](https://github.com/ra1028), [timdonnelly](https://github.com/timdonnelly), [TwoLivesLeft](https://github.com/TwoLivesLeft) & [devxoul](https://github.com/devxoul) for examples project.
 
