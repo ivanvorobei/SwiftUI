@@ -33,6 +33,7 @@ Also include:
 - Movie
 - InstaFake
 - TempusRomanumII
+- SwiftUI + Redux
 
 ## Projects
 
