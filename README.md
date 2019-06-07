@@ -9,6 +9,7 @@ Interested in UI and animations in `UIKit`? See project [awesome-ios-ui](https:/
 
 ## Navigate
 
+- [Transition And Blur](#transition-and-blur)
 - [SFSymbols](#sfsymbols)
 - [Calculator](#calculator)
 - [Creating And Combining Views](#creating-and-combining-views)
@@ -39,8 +40,13 @@ Also include:
 - Webview
 - UINote
 - SplitView
+- Card Animation
 
 ## Projects
+
+#### Transition And Blur
+
+<img src="Resources/TransitionBlur.png" width="700">
 
 #### SFSymbols
 
