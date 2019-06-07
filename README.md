@@ -38,12 +38,13 @@ Also include:
 - React Meets SwiftUI
 - Webview
 - UINote
+- SplitView
 
 ## Projects
 
 #### SFSymbols
 
-<img src="Resources/SFSymbols.gif" width="600">
+<img src="Resources/SFSymbols.gif" width="700">
 
 #### Calculator
 
