@@ -9,6 +9,7 @@ Interested in UI and animations in `UIKit`? See project [awesome-ios-ui](https:/
 
 ## Navigate
 
+- [SFSymbols](#sfsymbols)
 - [Calculator](#calculator)
 - [Creating And Combining Views](#creating-and-combining-views)
 - [Building Lists And Navigation](#building-lists-and-navigation)
@@ -34,8 +35,15 @@ Also include:
 - InstaFake
 - TempusRomanumII
 - SwiftUI + Redux
+- React Meets SwiftUI
+- Webview
+- UINote
 
 ## Projects
+
+#### SFSymbols
+
+<img src="Resources/SFSymbols.gif" width="400">
 
 #### Calculator
 
