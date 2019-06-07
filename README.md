@@ -10,13 +10,13 @@ Interested in UI and animations in `UIKit`? See project [awesome-ios-ui](https:/
 ## Navigate
 
 - [Transition And Blur](#transition-and-blur)
+- [2048 Game](#2048-game)
 - [SFSymbols](#sfsymbols)
 - [Calculator](#calculator)
 - [Creating And Combining Views](#creating-and-combining-views)
 - [Building Lists And Navigation](#building-lists-and-navigation)
 - [Handling User Input](#handling-user-input)
 - [WWDCPlayer](#WWDCPlayer)
-- [2048 Game](#2048-game)
 - [Composing Complex Interfaces](#composing-complex-interfaces)
 - [Working With UIControls](#working-with-uicontrols)
 - [Example To-Do App](#example-to-do-app)
@@ -48,6 +48,10 @@ Also include:
 
 <img src="Resources/TransitionBlur.png" width="700">
 
+#### 2048 Game
+
+<img src="Resources/2048game.png" width="800">
+
 #### SFSymbols
 
 <img src="Resources/SFSymbols.gif" width="700">
@@ -71,10 +75,6 @@ Also include:
 #### Handling User Input
 
 <img src="Resources/HandlingUserInput.png" width="650">
-
-#### 2048 Game
-
-<img src="Resources/2048game.png" width="260">
 
 #### Composing Complex Interfaces
 
