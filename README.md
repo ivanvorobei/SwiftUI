@@ -9,9 +9,11 @@ Interested in UI and animations in `UIKit`? See project [awesome-ios-ui](https:/
 
 ## Navigate
 
+- [Calculator](#calculator)
 - [Creating And Combining Views](#creating-and-combining-views)
 - [Building Lists And Navigation](#building-lists-and-navigation)
 - [Handling User Input](#handling-user-input)
+- [WWDCPlayer](#WWDCPlayer)
 - [2048 Game](#2048-game)
 - [Composing Complex Interfaces](#composing-complex-interfaces)
 - [Working With UIControls](#working-with-uicontrols)
@@ -27,7 +29,16 @@ Interested in UI and animations in `UIKit`? See project [awesome-ios-ui](https:/
 - [Jike](#jike)
 - [Flux](#flux)
 
+Also include:
+- Movie
+- InstaFake
+- TempusRomanumII
+
 ## Projects
+
+#### Calculator
+
+<img src="Resources/Calculator.png" width="250">
 
 #### Creating And Combining Views
 
@@ -36,6 +47,10 @@ Interested in UI and animations in `UIKit`? See project [awesome-ios-ui](https:/
 #### Building Lists And Navigation
 
 <img src="Resources/BuildingListsAndNavigation.png" width="650">
+
+#### WWDCPlayer
+
+<img src="Resources/WWDCPlayer.png" width="260">
 
 #### Handling User Input
 
