@@ -43,7 +43,7 @@ Also include:
 
 #### SFSymbols
 
-<img src="Resources/SFSymbols.gif" width="400">
+<img src="Resources/SFSymbols.gif" width="600">
 
 #### Calculator
 
