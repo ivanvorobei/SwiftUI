@@ -30,6 +30,7 @@ Interested in UI and animations in `UIKit`? See project [awesome-ios-ui](https:/
 - [Animating Views And Transitions](#animating-views-and-transitions)
 - [Jike](#jike)
 - [Flux](#flux)
+- [SwiftUI Download Progress View](#SwiftUIDownloadView)
 
 Also include:
 - Movie
@@ -128,6 +129,10 @@ Also include:
 #### Flux
 
 <img src="Resources/Flux.gif" width="260">
+
+### SwiftUIDownloadView
+
+<img src="Resources/SwiftUIDownloadView.gif" width="294">
 
 #### Authors
 
