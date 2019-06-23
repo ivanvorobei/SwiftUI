@@ -33,6 +33,7 @@ See project [awesome-ios-ui](https://github.com/ivanvorobei/awesome-ios-ui) or v
 - [Animating Views And Transitions](#animating-views-and-transitions)
 - [Jike](#jike)
 - [Flux](#flux)
+- [PureGenius](#puregenius)
 
 Also include:
 - Movie
@@ -131,6 +132,10 @@ Also include:
 #### Flux
 
 <img src="Resources/Flux.gif" width="260">
+
+#### PureGenius
+
+<img src="Resources/PureGenius.gif" width="260">
 
 #### Authors
 
