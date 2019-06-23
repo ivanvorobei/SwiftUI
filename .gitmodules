@@ -1,0 +1,3 @@
+[submodule "Examples/SwiftUIDownloadView"]
+	path = Examples/SwiftUIDownloadView
+	url = https://github.com/nishiths23/SwiftUIDownloadView
