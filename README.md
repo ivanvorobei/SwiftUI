@@ -33,6 +33,7 @@ See project [awesome-ios-ui](https://github.com/ivanvorobei/awesome-ios-ui) or v
 - [Animating Views And Transitions](#animating-views-and-transitions)
 - [Jike](#jike)
 - [Flux](#flux)
+- [SwiftUI Download Progress View](#SwiftUIDownloadView)
 - [PureGenius](#puregenius)
 
 Also include:
@@ -137,6 +138,9 @@ Also include:
 
 <img src="Resources/Flux.gif" width="260">
 
+### SwiftUIDownloadView
+
+<img src="Resources/SwiftUIDownloadView.gif" width="294">
 #### PureGenius
 
 <img src="Resources/PureGenius.gif" width="260">
