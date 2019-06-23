@@ -50,7 +50,7 @@ Also include:
 
 ### Cards
 
-<img src="Resources/Cards.gif" width="300">
+<img src="https://hsto.org/webt/xh/3t/eq/xh3teq68fx1bujdlsgpon4jtijo.gif" width="280">
 
 #### Transition And Blur
 
