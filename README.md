@@ -47,6 +47,10 @@ Also include:
 
 ## Projects
 
+### Cards
+
+<img src="Resources/Cards.gif" width="300">
+
 #### Transition And Blur
 
 <img src="Resources/TransitionBlur.png" width="700">
