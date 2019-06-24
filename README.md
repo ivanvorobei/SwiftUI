@@ -10,9 +10,7 @@ See [awesome-ios-ui](https://github.com/ivanvorobei/awesome-ios-ui) pack with UI
 
 [![awesome-ios-ui](https://github.com/ivanvorobei/SPPermission/blob/master/Resources/Buttons/Awesome%20iOS%20UI%20-%201.svg)](https://github.com/ivanvorobei/awesome-ios-ui)
 
-If you like the project, do not forget to `put star ★` or follow me in twitter:
-
-[![https://twitter.com/varabeis](https://github.com/ivanvorobei/SPPermission/blob/master/Resources/Buttons/Twitter-2.svg)](https://twitter.com/varabeis)
+If you like the project, do not forget to `put star ★`
 
 ## Navigate
 
