@@ -1,3 +1,6 @@
 [submodule "Examples/SwiftUIDownloadView"]
 	path = Examples/SwiftUIDownloadView
 	url = https://github.com/nishiths23/SwiftUIDownloadView
+[submodule "Examples/SwiftUI SideMenu"]
+	path = Examples/SwiftUI SideMenu
+	url = https://github.com/Vidhyadharan-Mohanram/SideMenu
