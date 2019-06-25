@@ -35,6 +35,7 @@ See project [awesome-ios-ui](https://github.com/ivanvorobei/awesome-ios-ui) or v
 - [Flux](#flux)
 - [SwiftUI Download Progress View](#SwiftUIDownloadView)
 - [PureGenius](#puregenius)
+- [SwiftUI SideMenu](#SwiftUI-SideMenu)
 
 Also include:
 - Movie
@@ -144,6 +145,10 @@ Also include:
 #### PureGenius
 
 <img src="Resources/PureGenius.gif" width="260">
+
+#### SwiftUI SideMenu
+
+<img src="Resources/SwiftUISideMenu.gif" width="300">
 
 #### Authors
 
