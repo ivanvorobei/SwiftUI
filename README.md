@@ -64,7 +64,7 @@ In class add property:
 @GestureState var dragState = DragState.inactive
 ```
 
-Class `DragState` see in file of project. Also you can see it in [apple's example page](https://developer.apple.com/documentation/swiftui/gestures/composing_swiftui_gestures).
+Class `DragState` see in file. Also you can see it in [apple's example page](https://developer.apple.com/documentation/swiftui/gestures/composing_swiftui_gestures).
 
 To card add `gester` and `offset`:
 
@@ -76,14 +76,6 @@ To card add `gester` and `offset`:
 .gesture(dragGester)
 ```
 
-#### Animation
-
-In preview I am use Spring animation for all cards:
-
-```swift
-.animation(.spring())
-```
-
 #### 3D
 
 For add 3D rotation for back cards use code:
@@ -93,6 +85,14 @@ For add 3D rotation for back cards use code:
 ```
 
 For medium card use 30 angles.
+
+#### Animation
+
+In preview I am use Spring animation for all cards:
+
+```swift
+.animation(.spring())
+```
 
 ### Transition And Blur
 
