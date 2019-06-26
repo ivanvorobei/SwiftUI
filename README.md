@@ -103,7 +103,7 @@ In preview I am use `Spring` animation for all cards:
 
 For button using `SFSymbols` pack with ready-use icons. Also support customisable weight:
 
-```
+```swift
 Image(systemName: show ? "slash.circle.fill" : "slash.circle")
    .font(Font.title.weight(.semibold))
 ```
@@ -112,7 +112,7 @@ Image(systemName: show ? "slash.circle.fill" : "slash.circle")
 
 For change state using `@State` as property:
 
-```
+```swift
 @State var show = false
 ```
 
@@ -120,7 +120,7 @@ For change state using `@State` as property:
 
 Size of area attach to state of property `show`:
 
-```
+```swift
 .frame(width: show ? 350 : 290, height: show ? 420 : 260)
 ```
 
