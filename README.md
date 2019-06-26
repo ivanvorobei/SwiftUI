@@ -56,7 +56,7 @@ Also include:
 
 <img align="left" src="https://hsto.org/webt/xh/3t/eq/xh3teq68fx1bujdlsgpon4jtijo.gif" width="280">
 
-#### Gester, Animation, 3D
+#### Gester
 
 In class add property:
 
@@ -72,6 +72,24 @@ To card add `gester` and `offset`:
     y: dragState.translation.height
 )
 .gesture(dragGester)
+```
+
+#### 3D
+
+For add 3D rotation for back cards use code:
+
+```swift
+.rotation3DEffect(Angle(degrees: dragState.isActive ? 0 : 60), axis: (x: 10.0, y: 10.0, z: 10.0))
+```
+
+For medium card use 30 angles.
+
+#### Animation
+
+In preview I am use Spring animation for all cards:
+
+```swift
+.animation(.spring())
 ```
 
 #### Transition And Blur
