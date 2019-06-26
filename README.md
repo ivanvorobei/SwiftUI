@@ -37,6 +37,7 @@ If you like the project, do not forget to `put star ★`
 - [Flux](#flux)
 - [SwiftUI Download Progress View](#SwiftUIDownloadView)
 - [PureGenius](#puregenius)
+- [SwiftUI SideMenu](#SwiftUI-SideMenu)
 
 Also include:
 - Movie
@@ -176,6 +177,10 @@ To card add `gester` and `offset`:
 #### PureGenius
 
 <img src="Resources/PureGenius.gif" width="260">
+
+#### SwiftUI SideMenu
+
+<img src="Resources/SwiftUISideMenu.gif" width="300">
 
 #### Authors
 
