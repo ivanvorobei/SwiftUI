@@ -15,6 +15,7 @@ If you like the project, do not forget to `put star ★`
 ## Navigate
 
 - [Animatable Cards](#animatable-cards)
+- [Area to Card](#area-to-card)
 - [Transition And Blur](#transition-and-blur)
 - [2048 Game](#2048-game)
 - [SFSymbols](#sfsymbols)
@@ -53,7 +54,7 @@ Also include:
 
 ## Animatable Cards
 
-<img align="left" src="https://hsto.org/webt/xh/3t/eq/xh3teq68fx1bujdlsgpon4jtijo.gif" width="280">
+<img align="left" src="Resources/Preview/animatable-cards.gif" width="280">
 
 ### Gester
 
@@ -91,6 +92,36 @@ In preview I am use `Spring` animation for all cards:
 
 ```swift
 .animation(.spring())
+
+```
+
+## Area to Card
+
+<img align="left" src="Resources/Preview/area-to-card.gif" width="280">
+
+### Frame
+
+Size of area attach to state of property `show`:
+
+```
+.frame(width: show ? 350 : 290, height: show ? 420 : 260)
+```
+
+### Button
+
+For change state using `@State` as property:
+
+```
+@State var show = false
+```
+
+### SFSymbols
+
+For button using `SFSymbols` pack with ready-use icons. Also support customisable weight:
+
+```
+Image(systemName: show ? "slash.circle.fill" : "slash.circle")
+   .font(Font.title.weight(.semibold))
 ```
 
 ## Transition And Blur
