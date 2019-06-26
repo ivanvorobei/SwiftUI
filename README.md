@@ -97,7 +97,7 @@ In preview I am use `Spring` animation for all cards:
 
 ## Area to Card
 
-<img align="left" src="Resources/Previews/area-to-card-2.gif" width="280">
+<img align="left" src="Resources/Previews/area-to-card.gif" width="280">
 
 #### SFSymbols
 
