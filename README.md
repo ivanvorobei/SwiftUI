@@ -1,4 +1,4 @@
-## `SwiftUI` Examples Projects
+## `SwiftUI` Examples
 
 <a href="https://itunes.apple.com/app/id1446635818" target="_blank"><img align="left" src="https://github.com/ivanvorobei/SwiftUI/blob/master/Resources/icon.png" width="70"/></a>
 
@@ -14,8 +14,13 @@ If you like the project, do not forget to `put star ★`
 
 ## Navigate
 
+My projects with small comment
+
 - [Animatable Cards](#animatable-cards)
 - [Area to Card](#area-to-card)
+
+### Other projects
+
 - [Transition And Blur](#transition-and-blur)
 - [2048 Game](#2048-game)
 - [SFSymbols](#sfsymbols)
