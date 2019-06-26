@@ -64,15 +64,6 @@ In class add property:
 @GestureState var dragState = DragState.inactive
 ```
 
-And in `body` create gester object:
-
-```
-let dragGester = DragGesture()
-    .updating($dragState) { (value, state, transaction) in
-        state = .dragging(translation: value.translation)
-    }
-```
-
 To card add `gester` and `offset`:
 
 ```swift
@@ -80,9 +71,6 @@ To card add `gester` and `offset`:
     x: dragState.translation.width,
     y: dragState.translation.height
 )
-.rotationEffect(Angle(degrees: Double(dragState.translation.width / 10)))
-.shadow(radius: dragState.isActive ? 8 : 0)
-.animation(.spring())
 .gesture(dragGester)
 ```
 
