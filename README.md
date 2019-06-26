@@ -14,6 +14,7 @@ If you like the project, do not forget to `put star ★`
 
 ## Navigate
 
+- [Animatable Cards](#animatable-cards)
 - [Transition And Blur](#transition-and-blur)
 - [2048 Game](#2048-game)
 - [SFSymbols](#sfsymbols)
@@ -50,9 +51,7 @@ Also include:
 - SplitView
 - Card Animation
 
-## Projects
-
-### Animatable Cards
+## Animatable Cards
 
 <img align="left" src="https://hsto.org/webt/xh/3t/eq/xh3teq68fx1bujdlsgpon4jtijo.gif" width="280">
 
@@ -88,7 +87,7 @@ For medium card use 30 angles.
 
 #### Animation
 
-In preview I am use Spring animation for all cards:
+In preview I am use `Spring` animation for all cards:
 
 ```swift
 .animation(.spring())
