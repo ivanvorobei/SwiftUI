@@ -115,7 +115,7 @@ For change state using `@State` as property:
 @State var show = false
 ```
 
-####SFSymbols
+#### SFSymbols
 
 For button using `SFSymbols` pack with ready-use icons. Also support customisable weight:
 
