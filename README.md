@@ -64,6 +64,8 @@ In class add property:
 @GestureState var dragState = DragState.inactive
 ```
 
+Class `DragState` see in file of project. Also you can see it in [apple's example page](https://developer.apple.com/documentation/swiftui/gestures/composing_swiftui_gestures).
+
 To card add `gester` and `offset`:
 
 ```swift
@@ -92,68 +94,68 @@ In preview I am use Spring animation for all cards:
 .animation(.spring())
 ```
 
-#### Transition And Blur
+### Transition And Blur
 
 <img src="Resources/TransitionBlur.png" width="700">
 
-#### 2048 Game
+### 2048 Game
 
 <img src="Resources/2048game.png" width="800">
 
-#### SFSymbols
+### SFSymbols
 
 <img src="Resources/SFSymbols.gif" width="700">
 
-#### Calculator
+### Calculator
 
 <img src="Resources/Calculator.png" width="250">
 
-#### Creating And Combining Views
+### Creating And Combining Views
 
 <img src="Resources/CreatingAndCombiningViews.png" width="650">
 
-#### Building Lists And Navigation
+### Building Lists And Navigation
 
 <img src="Resources/BuildingListsAndNavigation.png" width="650">
 
-#### WWDCPlayer
+### WWDCPlayer
 
 <img src="Resources/WWDCPlayer.png" width="260">
 
-#### Handling User Input
+### Handling User Input
 
 <img src="Resources/HandlingUserInput.png" width="650">
 
-#### Composing Complex Interfaces
+### Composing Complex Interfaces
 
 <img src="Resources/ComposingComplexInterfaces.png" width="650">
 
-#### Working With UIControls
+### Working With UIControls
 
 <img src="Resources/WorkingWithUIControls.png" width="650">
 <img src="Resources/WorkingWithUIControls2.png" width="650">
 
-#### Example To-Do App
+### Example To-Do App
 
 <img src="Resources/ExampleToDoApp.png" width="850">
 
-#### iPadOS Scenes
+### iPadOS Scenes
 
 <img src="Resources/iPadOSScenes.jpeg" width="600">
 
-#### Combine using GitHub API
+### Combine using GitHub API
 
 <img src="Resources/CombineUsingGitHubAPI.png" width="260">
 
-#### Async image loading
+### Async image loading
 
 <img src="Resources/AsyncImageLoading.gif" width="250">
 
-#### Interfacing With UIKit
+### Interfacing With UIKit
 
 <img src="Resources/InterfacingWithUIKit.png" width="650">
 
-#### GitHub Search
+### GitHub Search
 
 <img src="Resources/GitHubSearch.png" width="270">
 
@@ -161,19 +163,19 @@ In preview I am use Spring animation for all cards:
 
 <img src="Resources/TimeTravel.gif" width="250">
 
-#### Drawing Paths And Shapes
+### Drawing Paths And Shapes
 
 <img src="Resources/DrawingPathsAndShapes.png" width="650">
 
-#### Animating Views And Transitions
+### Animating Views And Transitions
 
 <img src="Resources/AnimatingViewsAndTransitions.png" width="650">
 
-#### Jike
+### Jike
 
 <img src="Resources/Jike.png" width="750">
 
-#### Flux
+### Flux
 
 <img src="Resources/Flux.gif" width="260">
 
@@ -184,11 +186,11 @@ In preview I am use Spring animation for all cards:
 
 <img src="Resources/PureGenius.gif" width="260">
 
-#### SwiftUI SideMenu
+### SwiftUI SideMenu
 
 <img src="Resources/SwiftUISideMenu.gif" width="300">
 
-#### Authors
+### Authors
 
 Thanks for [Jinxiansen](https://github.com/Jinxiansen), [ra1028](https://github.com/ra1028), [timdonnelly](https://github.com/timdonnelly), [TwoLivesLeft](https://github.com/TwoLivesLeft), [devxoul](https://github.com/devxoul), [cmtrounce](https://github.com/cmtrounce), [unixzii](https://github.com/unixzii), [ra1028](https://github.com/ra1028) for examples project.
 
