@@ -51,9 +51,39 @@ Also include:
 
 ## Projects
 
-#### Cards
+### Animatable Cards
 
-<img src="https://hsto.org/webt/xh/3t/eq/xh3teq68fx1bujdlsgpon4jtijo.gif" width="280">
+<img align="left" src="https://hsto.org/webt/xh/3t/eq/xh3teq68fx1bujdlsgpon4jtijo.gif" width="280">
+
+#### Gester, Animation, 3D
+
+In class add property:
+
+```swift
+@GestureState var dragState = DragState.inactive
+```
+
+And in `body` create gester object:
+
+```
+let dragGester = DragGesture()
+    .updating($dragState) { (value, state, transaction) in
+        state = .dragging(translation: value.translation)
+    }
+```
+
+To card add `gester` and `offset`:
+
+```swift
+.offset(
+    x: dragState.translation.width,
+    y: dragState.translation.height
+)
+.rotationEffect(Angle(degrees: Double(dragState.translation.width / 10)))
+.shadow(radius: dragState.isActive ? 8 : 0)
+.animation(.spring())
+.gesture(dragGester)
+```
 
 #### Transition And Blur
 
