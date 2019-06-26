@@ -76,6 +76,14 @@ To card add `gester` and `offset`:
 .gesture(dragGester)
 ```
 
+#### Animation
+
+In preview I am use Spring animation for all cards:
+
+```swift
+.animation(.spring())
+```
+
 #### 3D
 
 For add 3D rotation for back cards use code:
@@ -85,14 +93,6 @@ For add 3D rotation for back cards use code:
 ```
 
 For medium card use 30 angles.
-
-#### Animation
-
-In preview I am use Spring animation for all cards:
-
-```swift
-.animation(.spring())
-```
 
 ### Transition And Blur
 
