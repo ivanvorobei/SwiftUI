@@ -54,7 +54,7 @@ Also include:
 
 ## Animatable Cards
 
-<img align="left" src="Resources/Preview/animatable-cards.gif" width="280">
+<img align="left" src="Resources/Previews/animatable-cards.gif" width="280">
 
 ### Gester
 
@@ -97,7 +97,7 @@ In preview I am use `Spring` animation for all cards:
 
 ## Area to Card
 
-<img align="left" src="Resources/Preview/area-to-card.gif" width="280">
+<img align="left" src="Resources/Previews/area-to-card.gif" width="280">
 
 ### Frame
 
