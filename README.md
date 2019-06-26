@@ -99,12 +99,13 @@ In preview I am use `Spring` animation for all cards:
 
 <img align="left" src="Resources/Previews/area-to-card.gif" width="280">
 
-#### Frame
+#### SFSymbols
 
-Size of area attach to state of property `show`:
+For button using `SFSymbols` pack with ready-use icons. Also support customisable weight:
 
 ```
-.frame(width: show ? 350 : 290, height: show ? 420 : 260)
+Image(systemName: show ? "slash.circle.fill" : "slash.circle")
+   .font(Font.title.weight(.semibold))
 ```
 
 #### Button
@@ -115,13 +116,12 @@ For change state using `@State` as property:
 @State var show = false
 ```
 
-#### SFSymbols
+#### Frame
 
-For button using `SFSymbols` pack with ready-use icons. Also support customisable weight:
+Size of area attach to state of property `show`:
 
 ```
-Image(systemName: show ? "slash.circle.fill" : "slash.circle")
-   .font(Font.title.weight(.semibold))
+.frame(width: show ? 350 : 290, height: show ? 420 : 260)
 ```
 
 ## Transition And Blur
