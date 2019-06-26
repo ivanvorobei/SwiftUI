@@ -56,7 +56,7 @@ Also include:
 
 <img align="left" src="Resources/Previews/animatable-cards.gif" width="280">
 
-### Gester
+#### Gester
 
 In class add property:
 
@@ -76,7 +76,7 @@ To card add `gester` and `offset`:
 .gesture(dragGester)
 ```
 
-### 3D
+#### 3D
 
 For add 3D rotation for back cards use code:
 
@@ -86,7 +86,7 @@ For add 3D rotation for back cards use code:
 
 For medium card use 30 angles.
 
-### Animation
+#### Animation
 
 In preview I am use `Spring` animation for all cards:
 
@@ -99,7 +99,7 @@ In preview I am use `Spring` animation for all cards:
 
 <img align="left" src="Resources/Previews/area-to-card.gif" width="280">
 
-### Frame
+#### Frame
 
 Size of area attach to state of property `show`:
 
@@ -107,7 +107,7 @@ Size of area attach to state of property `show`:
 .frame(width: show ? 350 : 290, height: show ? 420 : 260)
 ```
 
-### Button
+#### Button
 
 For change state using `@State` as property:
 
@@ -115,7 +115,7 @@ For change state using `@State` as property:
 @State var show = false
 ```
 
-### SFSymbols
+####SFSymbols
 
 For button using `SFSymbols` pack with ready-use icons. Also support customisable weight:
 
