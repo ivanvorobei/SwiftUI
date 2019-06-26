@@ -14,12 +14,10 @@ If you like the project, do not forget to `put star ★`
 
 ## Navigate
 
-My projects with small comment
-
 - [Animatable Cards](#animatable-cards)
 - [Area to Card](#area-to-card)
 
-### Other projects
+#### Other projects
 
 - [Transition And Blur](#transition-and-blur)
 - [2048 Game](#2048-game)
