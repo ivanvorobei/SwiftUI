@@ -55,7 +55,7 @@ Also include:
 
 <img align="left" src="https://hsto.org/webt/xh/3t/eq/xh3teq68fx1bujdlsgpon4jtijo.gif" width="280">
 
-#### Gester
+### Gester
 
 In class add property:
 
@@ -75,7 +75,7 @@ To card add `gester` and `offset`:
 .gesture(dragGester)
 ```
 
-#### 3D
+### 3D
 
 For add 3D rotation for back cards use code:
 
@@ -85,7 +85,7 @@ For add 3D rotation for back cards use code:
 
 For medium card use 30 angles.
 
-#### Animation
+### Animation
 
 In preview I am use `Spring` animation for all cards:
 
@@ -93,27 +93,27 @@ In preview I am use `Spring` animation for all cards:
 .animation(.spring())
 ```
 
-### Transition And Blur
+## Transition And Blur
 
 <img src="Resources/TransitionBlur.png" width="700">
 
-### 2048 Game
+## 2048 Game
 
 <img src="Resources/2048game.png" width="800">
 
-### SFSymbols
+## SFSymbols
 
 <img src="Resources/SFSymbols.gif" width="700">
 
-### Calculator
+## Calculator
 
 <img src="Resources/Calculator.png" width="250">
 
-### Creating And Combining Views
+## Creating And Combining Views
 
 <img src="Resources/CreatingAndCombiningViews.png" width="650">
 
-### Building Lists And Navigation
+## Building Lists And Navigation
 
 <img src="Resources/BuildingListsAndNavigation.png" width="650">
 
