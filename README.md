@@ -225,7 +225,7 @@ Size of area attach to state of property `show`:
 <img src="Resources/SwiftUISideMenu.gif" width="300">
 
 ### SwiftUI Currency
-
+[Source](https://github.com/alexliubj/SwiftUI-Currency-Converter)
 <img src="Resources/SwiftUICurrency.png" width="300">
 
 ### Authors
