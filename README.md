@@ -59,26 +59,6 @@ Also include:
 
 <img align="left" src="Previews/animatable-cards.gif" width="280">
 
-#### Gester
-
-In class add property:
-
-```swift
-@GestureState var dragState = DragState.inactive
-```
-
-Class `DragState` see in file. Also you can see it in [apple's example page](https://developer.apple.com/documentation/swiftui/gestures/composing_swiftui_gestures).
-
-To card add `gester` and `offset`:
-
-```swift
-.offset(
-    x: dragState.translation.width,
-    y: dragState.translation.height
-)
-.gesture(dragGester)
-```
-
 #### 3D
 
 For add 3D rotation for back cards use code:
