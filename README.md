@@ -43,6 +43,7 @@ If you like the project, do not forget to `put star ★`
 - [SwiftUI Download Progress View](#SwiftUIDownloadView)
 - [PureGenius](#puregenius)
 - [SwiftUI SideMenu](#SwiftUI-SideMenu)
+- [SwiftUI Currency App](#SwiftUI-Currency)
 
 Also include:
 - Movie
@@ -196,6 +197,10 @@ For change state using `@State` as property:
 ### SwiftUI SideMenu
 
 <img src="Resources/SwiftUISideMenu.gif" width="300">
+
+### SwiftUI Currency
+[Source](https://github.com/alexliubj/SwiftUI-Currency-Converter)
+<img src="Resources/SwiftUICurrency.png" width="300">
 
 ### Authors
 
