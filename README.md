@@ -64,7 +64,9 @@ Also include:
 For add 3D rotation for back cards use code:
 
 ```swift
-.rotation3DEffect(Angle(degrees: dragState.isActive ? 0 : 60), axis: (x: 10.0, y: 10.0, z: 10.0))
+.rotation3DEffect(
+	Angle(degrees: dragState.isActive ? 0 : 60), axis: (x: 10.0, y: 10.0, z: 10.0)
+ )
 ```
 
 For medium card use 30 angles.
@@ -97,14 +99,6 @@ For change state using `@State` as property:
 
 ```swift
 @State var show = false
-```
-
-#### Frame
-
-Size of area attach to state of property `show`:
-
-```swift
-.frame(width: show ? 350 : 290, height: show ? 420 : 260)
 ```
 
 ## Transition And Blur
