@@ -43,6 +43,7 @@ If you like the project, do not forget to `put star ★`
 - [SwiftUI Download Progress View](#SwiftUIDownloadView)
 - [PureGenius](#puregenius)
 - [SwiftUI SideMenu](#SwiftUI-SideMenu)
+- [SwiftUI Currency App](#SwiftUI-Currency)
 
 Also include:
 - Movie
@@ -222,6 +223,10 @@ Size of area attach to state of property `show`:
 ### SwiftUI SideMenu
 
 <img src="Resources/SwiftUISideMenu.gif" width="300">
+
+### SwiftUI Currency
+
+<img src="Resources/SwiftUICurrency.png" width="300">
 
 ### Authors
 
