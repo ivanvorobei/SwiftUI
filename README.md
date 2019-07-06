@@ -1,6 +1,6 @@
 ## `SwiftUI` Examples
 
-<img align="left" src="Previews/area-to-card.gif" width="280">
+<img align="left" src="Previews/animatable-cards.gif" width="280">
 
 Examples projects using `SwiftUI` & `Combine`.  
 Include Layout, UI, Animations, Gestures, Draw and Data. See projects files in `Examples` folder. If you have project, make a pull request or create issue with link to repo.
