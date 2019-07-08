@@ -20,11 +20,13 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
 
         // Use a UIHostingController as window root view controller
-        let window = UIWindow(frame: UIScreen.main.bounds)
-        window.rootViewController = UIHostingController(rootView: ContentView(instaPhotos: [InstaPhoto(id: 0, username: "leavenstee", comments: ["Nice", "Cool","Lame"], likes: 100, image: "wwdc"),InstaPhoto(id: 0, username: "leavenstee", comments: ["Nice", "Cool","Lame","Nice", "Cool","Lame"], likes: 200, image: "pizza"),
-                                                                                            InstaPhoto(id: 0, username: "leavenstee", comments: ["Nice", "Cool","Lame","Nice", "Cool","Lame","Nice", "Cool","Lame","Nice", "Cool","Lame"], likes: 4440, image: "wwdc"),InstaPhoto(id: 0, username: "leavenstee", comments: ["Nice", "Cool"], likes: 20, image: "badge")]))
-        self.window = window
-        window.makeKeyAndVisible()
+        if let windowScene = scene as? UIWindowScene {
+            let window = UIWindow(windowScene: windowScene)
+            window.rootViewController = UIHostingController(rootView: ContentView(instaPhotos: [InstaPhoto(id: 0, username: "leavenstee", comments: ["Nice", "Cool","Lame"], likes: 100, image: "wwdc"),InstaPhoto(id: 0, username: "leavenstee", comments: ["Nice", "Cool","Lame","Nice", "Cool","Lame"], likes: 200, image: "pizza"),
+                                                                                                InstaPhoto(id: 0, username: "leavenstee", comments: ["Nice", "Cool","Lame","Nice", "Cool","Lame","Nice", "Cool","Lame","Nice", "Cool","Lame"], likes: 4440, image: "wwdc"),InstaPhoto(id: 0, username: "leavenstee", comments: ["Nice", "Cool"], likes: 20, image: "badge")]))
+            self.window = window
+            window.makeKeyAndVisible()
+        }
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

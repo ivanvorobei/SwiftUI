@@ -12,7 +12,7 @@ struct CategoryRow: View {
     
     var body: some View {
         VStack(alignment: .leading) {
-            ScrollView(showsHorizontalIndicator: false) {
+            ScrollView(.horizontal) {
                 HStack(alignment: .top, spacing: 0) {
                     ForEach(self.items.identified(by: \.id)) { zone in
                             CategoryItem(zone: zone)
