@@ -14,7 +14,7 @@ struct NoteList : View {
     var body: some View {
         NavigationView {
             List(userData.notes) { note in
-                NavigationButton(destination: NoteDetail(note: note)) {
+                NavigationLink(destination: NoteDetail(note: note)) {
                     NoteRow(note: note)
                 }
             }
