@@ -36,7 +36,7 @@ struct ConverterView : View {
         let inset = EdgeInsets(top: -8, leading: -20, bottom: -7, trailing: 5)
         let doubleValue: Double = Double(self.$baseAmount.value) ?? 1.0
         
-        return ZStack(alignment: .bottomTrailing) {
+        return ZStack(alignment: Alignment.bottomTrailing) {
             VStack(alignment: .leading){
                 Text("From:").bold().color(.gray)
                 HStack{

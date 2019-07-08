@@ -6,6 +6,7 @@ struct Home : View {
     var body: some View {
         VStack {
             Text("Hello World")
+            ClockView()
         }
     }
 }
