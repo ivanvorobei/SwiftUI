@@ -24,7 +24,7 @@ struct UsersListView : View {
                 }
                 Section {
                     ForEach(state.usersState.users) {user in
-                        NavigationButton(destination: UserDetailView(userId: user.id)) {
+                        NavigationLink(destination: UserDetailView(userId: user.id)) {
                             UserRow(user: user)
                         }
                     }

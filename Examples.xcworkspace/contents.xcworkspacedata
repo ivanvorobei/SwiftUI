@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Other Projects/2048 Game/SwiftUI2048.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Other Projects/Animating Views And Transitions/Complete/Landmarks/AnimatingViewsAndTransitions.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Other Projects/Building Lists And Navigation/Complete/Landmarks/BuildingListsAndNavigation.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Other Projects/Calculator/Calculator/Calculator.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Other Projects/Combine using GitHub API/SwiftUI-Combine-Example.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Other Projects/Composing Complex Interfaces/Complete/Landmarks/ComposingComplexInterfaces.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Other Projects/Creating And Combining Views/Complete/Landmarks/CreatingAndCombiningViews.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Other Projects/Currency-SwiftUI/Currency-SwiftUI.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Other Projects/Drawing Paths And Shapes/Complete/Landmarks/DrawingPathsAndShapes.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Other Projects/Example To-Do App/SwiftUITodo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Other Projects/Flux/SwiftUI-Flux.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Other Projects/GitHub Search/GitHubSearchWithSwiftUI.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Other Projects/Handling User Input/Complete/Landmarks/HandlingUserInput.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Other Projects/InstaFake/Instagram-SWUI.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Other Projects/Interfacing With UIKit/Complete/Landmarks/InterfacingWithUIKit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Other Projects/iPadOS Scenes/BehindTheScenes.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Other Projects/Jike/SwiftUI_Jike.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Other Projects/Movie/MovieSwift/MovieSwift.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Other Projects/SwiftUI + Redux/SwiftUIDemo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Other Projects/Tempus RomanumIl/TempusRomanum.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Other Projects/Time Travel/SwiftUITimeTravel.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Other Projects/Transition and Blur/Basic Animation/SwiftUI-BasicAnimation.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Other Projects/Transition and Blur/Card Animation/SwiftUI-CardAnimation.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Other Projects/UINote/SwiftUINote.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Other Projects/Working With UIControls/Complete/Landmarks/WorkingWithUIControls.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Other Projects/WWDCPlayer/WWDCPlayer.xcodeproj">
+   </FileRef>
+</Workspace>

@@ -12,7 +12,7 @@ struct CategoryRow: View {
     var items: [Landmark]
     
     var body: some View {
-        VStack(alignment: .leading) {
+        VStack(alignment: HorizontalAlignment.leading) {
             Text(self.categoryName)
                 .font(.headline)
                 .padding(.leading, 15)
@@ -21,7 +21,7 @@ struct CategoryRow: View {
             ScrollView(showsHorizontalIndicator: false) {
                 HStack(alignment: .top, spacing: 0) {
                     ForEach(self.items.identified(by: \.name)) { landmark in
-                        NavigationButton(
+                        NavigationLink(
                             destination: LandmarkDetail(
                                 landmark: landmark
                             )

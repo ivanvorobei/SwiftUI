@@ -19,7 +19,7 @@ struct ContentView : View {
                 ForEach(instaPhotos.identified(by: \.id)) {
                     ImageCell(photo: $0)
                 }
-                }.navigationBarTitle(Text("WWDC")).navigationBarItems(trailing: PresentationButton(Text("Camera"), destination: CameraView()))
+            }.navigationBarTitle("WWDC").navigationBarItems(trailing: PresentationLink("Camera", destination: CameraView()))
         }
     }
     
