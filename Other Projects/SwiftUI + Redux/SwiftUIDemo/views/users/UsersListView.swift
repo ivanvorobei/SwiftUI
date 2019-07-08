@@ -24,7 +24,8 @@ struct UsersListView : View {
                 }
                 Section {
                     ForEach(state.usersState.users) {user in
-                        NavigationLink(destination: UserDetailView(userId: user.id)) {
+                        NavigationLink(destination: UserDetailView(userId: user.id)
+                            .environmentObject(self.state)) {
                             UserRow(user: user)
                         }
                     }
