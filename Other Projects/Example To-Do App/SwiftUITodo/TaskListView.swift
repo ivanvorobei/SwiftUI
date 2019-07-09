@@ -14,13 +14,14 @@ struct TaskListView: View {
   @State var isEditing: Bool = false
 
   var body: some View {
+    NavigationView {
     List {
       TextField($draftTitle, placeholder: Text("Create a New Task..."), onCommit: self.createTask)
       ForEach(self.userData.tasks) { task in
         TaskItemView(task: task, isEditing: self.$isEditing)
       }
     }
-    .navigationBarItem(title: Text("Tasks 👀"))
+    .navigationBarTitle(Text("Tasks 👀"))
     .navigationBarItems(trailing: Button(action: { self.isEditing.toggle() }) {
       if !self.isEditing {
         Text("Edit")
@@ -28,6 +29,7 @@ struct TaskListView: View {
         Text("Done").bold()
       }
     })
+    }
   }
 
   private func createTask() {

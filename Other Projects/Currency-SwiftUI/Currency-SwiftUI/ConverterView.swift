@@ -37,6 +37,7 @@ struct ConverterView : View {
         let doubleValue: Double = Double(self.$baseAmount.value) ?? 1.0
         
         return ZStack(alignment: Alignment.bottomTrailing) {
+            NavigationView {
             VStack(alignment: .leading){
                 Text("From:").bold().color(.gray)
                 HStack{
@@ -69,7 +70,7 @@ struct ConverterView : View {
                         	}
                         }
                     }.onAppear(perform: loadCurrencies)
-                    .navigationBarItem(title: Text("Currenceis 💱"))
+                    .navigationBarTitle(Text("Currencies 💱"))
                     .navigationBarItems(trailing: Button(action: { self.isEditing.toggle() }) {
                         if !self.isEditing {
                             Text("Edit")
@@ -77,9 +78,11 @@ struct ConverterView : View {
                             Text("Done").bold()
                         }
                     })
+                HStack {
                 Text("Last updated: \(self.lastUpdated)").color(.gray).bold()
-            }
-             NavigationButton(destination: AddCurrencyView().environmentObject(self.userData)) {
+                Spacer()
+
+            NavigationLink(destination: AddCurrencyView().environmentObject(self.userData)) {
                 	Text("💰")
                 }.frame(width: 46, height: 46, alignment: .center)
                 .background(
@@ -88,6 +91,9 @@ struct ConverterView : View {
                         .border(Color(red: 0.7, green: 0.7, blue: 0.7), width: 1 / UIScreen.main.scale, cornerRadius: 23))
                 .foregroundColor(.white).font(.largeTitle)
         }.padding()
+                }
+        }
+        }
     }
     
     private func loadCurrencies() {
