@@ -11,5 +11,11 @@ final class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         )
         self.window = window
         window.makeKeyAndVisible()
+        if let windowScene = scene as? UIWindowScene {
+            let window = UIWindow(windowScene: windowScene)
+            window.rootViewController = UIHostingController(rootView: SearchUserView().environmentObject(SearchUserViewModel()))
+            self.window = window
+            window.makeKeyAndVisible()
+        }
     }
 }
