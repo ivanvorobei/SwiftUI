@@ -33,20 +33,18 @@ struct CategoryHome: View {
                 }
                 .listRowInsets(EdgeInsets())
                 
-                NavigationButton(destination: LandmarkList()) {
+                NavigationLink(destination: LandmarkList()) {
                     Text("See All")
                 }
             }
             .navigationBarTitle(Text("Featured"))
             .navigationBarItems(trailing:
-                PresentationButton(
+                PresentationLink(destination: ProfileHost()) {
                     Image(systemName: "person.crop.circle")
                         .imageScale(.large)
                         .accessibility(label: Text("User Profile"))
-                        .padding(),
-                    destination: ProfileHost()
-                )
-            )
+                        .padding()
+            })
         }
     }
 }

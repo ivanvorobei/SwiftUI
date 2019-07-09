@@ -12,13 +12,13 @@ struct CategoryRow: View {
     var items: [Landmark]
     
     var body: some View {
-        VStack(alignment: HorizontalAlignment.leading) {
+        VStack(alignment: .leading) {
             Text(self.categoryName)
                 .font(.headline)
                 .padding(.leading, 15)
                 .padding(.top, 5)
             
-            ScrollView(showsHorizontalIndicator: false) {
+            ScrollView {
                 HStack(alignment: .top, spacing: 0) {
                     ForEach(self.items.identified(by: \.name)) { landmark in
                         NavigationLink(
