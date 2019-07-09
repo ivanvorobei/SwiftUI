@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB3DC0CE22D54717006F0587 /* AnySubscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3DC0CD22D54717006F0587 /* AnySubscription.swift */; };
+		BB3DC0D022D54737006F0587 /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3DC0CF22D54737006F0587 /* ErrorResponse.swift */; };
+		BB3DC0D222D54826006F0587 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3DC0D122D54826006F0587 /* WebView.swift */; };
+		BB3DC0D422D54927006F0587 /* Publisher.Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3DC0D322D54927006F0587 /* Publisher.Extension.swift */; };
 		ED73146222A6F228004F8DA0 /* RepositoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED73146122A6F228004F8DA0 /* RepositoryListView.swift */; };
 		EDDADAB122A808D500FEDC01 /* Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDADAB022A808D500FEDC01 /* Combine.swift */; };
 		EDDADAB322A809E600FEDC01 /* URLSession.Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDADAB222A809E600FEDC01 /* URLSession.Combine.swift */; };
@@ -24,6 +28,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB3DC0CD22D54717006F0587 /* AnySubscription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnySubscription.swift; sourceTree = "<group>"; };
+		BB3DC0CF22D54737006F0587 /* ErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorResponse.swift; sourceTree = "<group>"; };
+		BB3DC0D122D54826006F0587 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		BB3DC0D322D54927006F0587 /* Publisher.Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Publisher.Extension.swift; sourceTree = "<group>"; };
 		ED73146122A6F228004F8DA0 /* RepositoryListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoryListView.swift; sourceTree = "<group>"; };
 		EDDADAB022A808D500FEDC01 /* Combine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combine.swift; sourceTree = "<group>"; };
 		EDDADAB222A809E600FEDC01 /* URLSession.Combine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSession.Combine.swift; sourceTree = "<group>"; };
@@ -59,6 +67,7 @@
 				EDDADAB022A808D500FEDC01 /* Combine.swift */,
 				EDDADAB222A809E600FEDC01 /* URLSession.Combine.swift */,
 				EDDADABA22A82C2500FEDC01 /* JSONDecoder.Extension.swift */,
+				BB3DC0D322D54927006F0587 /* Publisher.Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -109,6 +118,7 @@
 				ED73146122A6F228004F8DA0 /* RepositoryListView.swift */,
 				EDDF06B622A6CD8300B23D44 /* RepositoryView.swift */,
 				EDDADAB822A82C0400FEDC01 /* RepositoryListViewModel.swift */,
+				BB3DC0D122D54826006F0587 /* WebView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -119,6 +129,8 @@
 				EDDF06B922A6D78200B23D44 /* Repository.swift */,
 				EDDADAB422A821CD00FEDC01 /* ItemResponse.swift */,
 				EDDADAB622A829A300FEDC01 /* RepositoryAPI.swift */,
+				BB3DC0CD22D54717006F0587 /* AnySubscription.swift */,
+				BB3DC0CF22D54737006F0587 /* ErrorResponse.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -195,8 +207,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED73146222A6F228004F8DA0 /* RepositoryListView.swift in Sources */,
+				BB3DC0CE22D54717006F0587 /* AnySubscription.swift in Sources */,
 				EDDADAB722A829A300FEDC01 /* RepositoryAPI.swift in Sources */,
 				EDDF06A222A6C61C00B23D44 /* AppDelegate.swift in Sources */,
+				BB3DC0D422D54927006F0587 /* Publisher.Extension.swift in Sources */,
 				EDDADAB522A821CD00FEDC01 /* ItemResponse.swift in Sources */,
 				EDDF06A422A6C61C00B23D44 /* SceneDelegate.swift in Sources */,
 				EDDADAB922A82C0400FEDC01 /* RepositoryListViewModel.swift in Sources */,
@@ -205,6 +219,8 @@
 				EDDADAB322A809E600FEDC01 /* URLSession.Combine.swift in Sources */,
 				EDDADABB22A82C2500FEDC01 /* JSONDecoder.Extension.swift in Sources */,
 				EDDADAB122A808D500FEDC01 /* Combine.swift in Sources */,
+				BB3DC0D022D54737006F0587 /* ErrorResponse.swift in Sources */,
+				BB3DC0D222D54826006F0587 /* WebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
