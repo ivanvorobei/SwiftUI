@@ -42,7 +42,7 @@ struct AddCurrencyView : View {
                     }
                 }
             }
-            }.navigationBarItem(title: Text("Add Currency"))
+            }.navigationBarTitle(Text("Add Currency"))
     }
     
     private func select(_ currency: Currency) {
