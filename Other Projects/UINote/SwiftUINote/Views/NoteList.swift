@@ -14,7 +14,8 @@ struct NoteList : View {
     var body: some View {
         NavigationView {
             List(userData.notes) { note in
-                NavigationLink(destination: NoteDetail(note: note)) {
+                NavigationLink(destination: NoteDetail(note: note)
+                    .environmentObject(self.userData)) {
                     NoteRow(note: note)
                 }
             }
