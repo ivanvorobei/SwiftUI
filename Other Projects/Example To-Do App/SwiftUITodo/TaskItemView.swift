@@ -22,7 +22,7 @@ struct TaskItemView: View {
           .tapAction(count: 1) {
             self.delete()
           }
-        NavigationButton(destination: TaskEditView(task: task).environmentObject(self.userData)) {
+        NavigationLink(destination: TaskEditView(task: task).environmentObject(self.userData)) {
           Text(task.title)
         }
       } else {
