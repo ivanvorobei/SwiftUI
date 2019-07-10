@@ -49,7 +49,7 @@ and follow me on GitHub:
 - [PureGenius](#puregenius)
 - [SwiftUI SideMenu](#SwiftUI-SideMenu)
 - [SwiftUI Currency App](#SwiftUI-Currency)
-- [SwiftUI Weather App](#weather)
+- [SwiftUI Weather App](#SwiftUI-Weather)
 
 Also include:
 - Movie
@@ -208,13 +208,11 @@ For change state using `@State` as property:
 [Source](https://github.com/alexliubj/SwiftUI-Currency-Converter)
 <img src="Resources/SwiftUICurrency.png" width="300">
 
-### Weather
+### SwiftUI Weather
 
-[Source](https://github.com/bpisano/Weather)
-[Tutorial](https://medium.com/lunabee-studio/building-a-weather-app-with-swiftui-4ec2743ff615)
-<img src="https://github.com/bpisano/Weather/blob/master/Images/Banner.png" width=300>
+[Source](https://github.com/bpisano/Weather) and [Tutorial](https://medium.com/lunabee-studio/building-a-weather-app-with-swiftui-4ec2743ff615)
 
-Medium tutorial
+<img src="https://github.com/bpisano/Weather/blob/master/Images/Banner.png" width=500>
 
 ### Authors
 
