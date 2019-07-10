@@ -205,14 +205,16 @@ For change state using `@State` as property:
 <img src="Resources/SwiftUISideMenu.gif" width="300">
 
 ### SwiftUI Currency
+
 [Source](https://github.com/alexliubj/SwiftUI-Currency-Converter)
+
 <img src="Resources/SwiftUICurrency.png" width="300">
 
 ### SwiftUI Weather
 
 [Source](https://github.com/bpisano/Weather) and [Tutorial](https://medium.com/lunabee-studio/building-a-weather-app-with-swiftui-4ec2743ff615)
 
-<img src="https://github.com/bpisano/Weather/blob/master/Images/Banner.png" width=500>
+<img src="https://github.com/bpisano/Weather/blob/master/Images/Banner.png" width="650">
 
 ### Authors
 
