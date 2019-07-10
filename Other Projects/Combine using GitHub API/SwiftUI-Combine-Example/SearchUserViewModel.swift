@@ -36,10 +36,10 @@ final class SearchUserViewModel: BindableObject {
         cancellable = assign
 
         URLSession.shared.send(request: request)
-            .map { $0.data }
             .decode(type: SearchUserResponse.self, decoder: JSONDecoder())
             .map { $0.items }
             .replaceError(with: [])
+            .receive(on: DispatchQueue.main)
             .receive(subscriber: assign)
     }
 
@@ -50,10 +50,11 @@ final class SearchUserViewModel: BindableObject {
 
         let request = URLRequest(url: user.avatar_url)
         URLSession.shared.send(request: request)
-            .map { UIImage(data: $0.data) }
+            .map { UIImage(data: $0) }
             .replaceError(with: nil)
             .eraseToAnyPublisher()
-            .receive(subscriber: Subscribers.Sink<AnyPublisher<UIImage?, Never>> { [weak self] image in
+            .receive(on: DispatchQueue.main)
+            .receive(subscriber: Subscribers.Sink<UIImage?, Never> { [weak self] image in
                 self?.userImages[user] = image
             })
     }
