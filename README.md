@@ -50,6 +50,7 @@ and follow me on GitHub:
 - [SwiftUI SideMenu](#SwiftUI-SideMenu)
 - [SwiftUI Currency App](#SwiftUI-Currency)
 - [SwiftUI Weather App](#SwiftUI-Weather)
+- [DesignCode SwiftUI App](https://github.com/mythxn/DesignCode)
 
 Also include:
 - Movie
@@ -215,6 +216,12 @@ For change state using `@State` as property:
 [Source](https://github.com/bpisano/Weather) and [Tutorial](https://medium.com/lunabee-studio/building-a-weather-app-with-swiftui-4ec2743ff615)
 
 <img src="https://github.com/bpisano/Weather/blob/master/Images/Banner.png" width="650">
+
+### DesignCode SwiftUI
+[Source](https://github.com/mythxn/DesignCode/tree/master)
+
+<img src="https://i.imgur.com/N9HfWdD.png" width="650">
+
 
 ### Authors
 
