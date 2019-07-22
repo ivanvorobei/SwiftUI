@@ -220,7 +220,7 @@ For change state using `@State` as property:
 ### DesignCode SwiftUI
 [Source](https://github.com/mythxn/DesignCode/tree/master)
 
-<img src="https://i.imgur.com/N9HfWdD.png" width="650">
+<img src="https://github.com/mythxn/DesignCode-SwiftUI/blob/master/preview.gif" height=450><img src="https://i.imgur.com/N9HfWdD.png" height=450>
 
 
 ### Authors
