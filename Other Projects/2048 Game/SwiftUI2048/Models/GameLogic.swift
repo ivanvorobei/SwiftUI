@@ -21,7 +21,7 @@ final class GameLogic : BindableObject {
     
     typealias BlockMatrixType = BlockMatrix<IdentifiedBlock>
     
-    let didChange = PassthroughSubject<GameLogic, Never>()
+    let willChange = PassthroughSubject<GameLogic, Never>()
     
     fileprivate var _blockMatrix: BlockMatrixType!
     var blockMatrix: BlockMatrixType {
@@ -42,12 +42,12 @@ final class GameLogic : BindableObject {
         _blockMatrix = BlockMatrixType()
         generateNewBlocks()
         
-        didChange.send(self)
+        willChange.send(self)
     }
     
     func move(_ direction: Direction) {
         defer {
-            didChange.send(self)
+            willChange.send(self)
         }
         
         var moved = false
@@ -136,7 +136,7 @@ final class GameLogic : BindableObject {
         
         // Don't forget to sync data.
         defer {
-            didChange.send(self)
+            willChange.send(self)
         }
         
         // Place the first block.

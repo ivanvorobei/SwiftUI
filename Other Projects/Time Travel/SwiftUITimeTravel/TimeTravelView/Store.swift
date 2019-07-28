@@ -6,7 +6,7 @@ public final class Store<StateType>: BindableObject where StateType: StateMachin
     private let initialState: StateType
     private var subsequentStates: [StateType] = []
 
-    public let didChange = PassthroughSubject<Void, Never>()
+    public let willChange = PassthroughSubject<Void, Never>()
     
     public init(state: StateType) {
         initialState = state
@@ -23,7 +23,7 @@ public final class Store<StateType>: BindableObject where StateType: StateMachin
     var currentStateIndex: Int = 0 {
         didSet {
             withAnimation {
-                didChange.send(())
+                willChange.send(())
             }
         }
     }
