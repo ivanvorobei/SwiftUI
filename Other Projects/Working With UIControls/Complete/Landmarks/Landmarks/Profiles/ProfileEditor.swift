@@ -26,7 +26,7 @@ struct ProfileEditor: View {
                 Text("Seasonal Photo").bold()
                 
                 SegmentedControl(selection: $profile.seasonalPhoto) {
-                    ForEach(Profile.Season.allCases.identified(by: \.self)) { season in
+                    ForEach(Profile.Season.allCases, id: \.self) { season in
                         Text(season.rawValue).tag(season)
                     }
                 }

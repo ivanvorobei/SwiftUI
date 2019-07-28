@@ -19,19 +19,19 @@ struct ContentView : View {
         }) {
             VStack() {
                 Text("Learn SwiftUI")
-                    .color(.white)
+                    .foregroundColor(.white)
                     .fontWeight(.bold)
                     .font(.largeTitle)
                     .padding(.top, show ? 100 : 20)
                 
                 Text("A course on UI and animations")
-                    .color(Color(hue: 0.567, saturation: 0.158, brightness: 0.943))
+                    .foregroundColor(Color(hue: 0.567, saturation: 0.158, brightness: 0.943))
                     .lineLimit(-1)
                 
                 Spacer()
                 
                 Text("Card Animation")
-                    .color(Color(hue: 0.498, saturation: 0.609, brightness: 1.0))
+                    .foregroundColor(Color(hue: 0.498, saturation: 0.609, brightness: 1.0))
                     .fontWeight(.bold)
                     .font(.title)
                     .padding(.bottom, show ? 100 : 20)

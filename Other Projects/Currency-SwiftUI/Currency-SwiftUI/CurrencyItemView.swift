@@ -49,7 +49,7 @@ struct CurrencyItemView: View {
                     Text(currency.flag).font(.title)
                     VStack(alignment: .leading){
                         Text(currency.code)
-                        Text(currency.name).color(.gray)
+                        Text(currency.name).foregroundColor(.gray)
                     }
                 }
             }
@@ -61,14 +61,15 @@ struct CurrencyItemView: View {
                     // Code and name
                     VStack(alignment: .leading){
                         Text(currency.code).font(.headline)
-                        Text(currency.name).font(.footnote).color(.gray)
+                        Text(currency.name).font(.footnote).foregroundColor(.gray)
                     }
                     Spacer()
                     // Amount and conversion
                     VStack(alignment: .trailing){
                         Text("\(totalAmount)")
                         // Would be 1 this currency = xxx base currency
-                        Text("1 \(currency.code) = \(converstionRate) \(userData.baseCurrency.code)").color(.gray)
+                        Text("1 \(currency.code) = \(converstionRate) \(userData.baseCurrency.code)")
+                            .foregroundColor(.gray)
                     }
                 }
             }
