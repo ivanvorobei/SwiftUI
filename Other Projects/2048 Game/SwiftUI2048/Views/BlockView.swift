@@ -86,7 +86,7 @@ struct BlockView : View {
             
             Text(numberText)
                 .font(Font.system(size: fontSize).bold())
-                .color(colorPair.1)
+                .foregroundColor(colorPair.1)
                 .id(numberText)
                 .transition(AnyTransition.scale(scale: 0.5, anchor: .center).combined(with: .opacity))
                 .animation(.fluidSpring())

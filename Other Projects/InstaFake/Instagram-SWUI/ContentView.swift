@@ -16,7 +16,7 @@ struct ContentView : View {
     var body: some View {
         NavigationView {
             List {
-                ForEach(instaPhotos.identified(by: \.id)) {
+                ForEach(instaPhotos, id: \.id) {
                     ImageCell(photo: $0)
                 }
             }.navigationBarTitle("WWDC").navigationBarItems(trailing: PresentationLink("Camera", destination: CameraView()))

@@ -20,7 +20,7 @@ struct ChatCell : View {
                     .bold()
                     .padding(.top, 4)
                     Text(subTitle)
-                    .color(Color.gray)
+                    .foregroundColor(Color.gray)
                     .padding(.bottom, 8)
                 }
                 Spacer()

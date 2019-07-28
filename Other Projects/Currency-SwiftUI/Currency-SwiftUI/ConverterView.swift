@@ -39,14 +39,14 @@ struct ConverterView : View {
         return ZStack(alignment: Alignment.bottomTrailing) {
             NavigationView {
             VStack(alignment: .leading){
-                Text("From:").bold().color(.gray)
+                Text("From:").bold().foregroundColor(.gray)
                 HStack{
                     // Flag
                     Text("\(userData.baseCurrency.flag)").padding(5)
                     // Code and name
                     VStack(alignment: .leading){
-                        Text(userData.baseCurrency.code).color(.white)
-                        Text(userData.baseCurrency.name).color(.white)
+                        Text(userData.baseCurrency.code).foregroundColor(.white)
+                        Text(userData.baseCurrency.name).foregroundColor(.white)
                     }
                     Spacer()
                     // Amount and conversion
@@ -60,7 +60,7 @@ struct ConverterView : View {
                                 .padding(inset)
                         )
                 }.background(Color.blue).cornerRadius(5)
-                Text("To:").bold().color(.gray)
+                Text("To:").bold().foregroundColor(.gray)
                 List {
                     // TODO: should filter out BaseCurrency from list
                     ForEach(userData.userCurrency) { currency in
@@ -79,7 +79,8 @@ struct ConverterView : View {
                         }
                     })
                 HStack {
-                Text("Last updated: \(self.lastUpdated)").color(.gray).bold()
+                    Text("Last updated: \(self.lastUpdated)")
+                        .foregroundColor(.gray).bold()
                 Spacer()
 
             NavigationLink(destination: AddCurrencyView().environmentObject(self.userData)) {

@@ -71,7 +71,7 @@ struct TitleText: View {
     let text: String
     var body: some View {
         return Text(text)
-            .color(.primary)
+            .foregroundColor(.primary)
             .bold()
     }
 }
@@ -81,6 +81,6 @@ struct DescriptionText : View {
     var body: some View {
         return Text(text)
             .font(.footnote).fontWeight(.semibold)
-            .color(.secondary)
+            .foregroundColor(.secondary)
     }
 }

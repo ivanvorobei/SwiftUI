@@ -94,7 +94,7 @@ struct GameView : View {
                 ZStack(alignment: layoutTraits.containerAlignment) {
                     Text("2048")
                         .font(Font.system(size: 48).weight(.black))
-                        .color(Color(red:0.47, green:0.43, blue:0.40, opacity:1.00))
+                        .foregroundColor(Color(red:0.47, green:0.43, blue:0.40, opacity:1.00))
                         .offset(layoutTraits.bannerOffset)
                     
                     ZStack(alignment: .top) {

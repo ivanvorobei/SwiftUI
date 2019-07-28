@@ -54,7 +54,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
 
     func scene(_ scene: UIScene, continue userActivity: NSUserActivity) {
-        print("Continuing \(userActivity.userInfo?["count"])")
+        print("Continuing \(String(describing: userActivity.userInfo?["count"]))")
     }
 
     func scene(_ scene: UIScene, didUpdate userActivity: NSUserActivity) {
