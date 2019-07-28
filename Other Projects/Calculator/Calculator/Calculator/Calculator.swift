@@ -33,13 +33,13 @@ struct Calculator: View {
         .padding(margin)
       
       VStack(alignment: .center, spacing: margin) {
-        ForEach(data.identified(by: \.description)) { items in
+        ForEach(data, id: \.description) { items in
           HStack(alignment: .center, spacing: margin) {
-            ForEach(items.identified(by: \.description)) { item in
+            ForEach(items, id: \.description) { item in
               Text(item)
                 .font(.title)
                 .bold()
-                .color(Color.blue)
+                .foregroundColor(Color.blue)
                 .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
                 .background(Color(red: 234 / 255.0, green: 240 / 255.0, blue: 241 / 255.0))
                 .tapAction {

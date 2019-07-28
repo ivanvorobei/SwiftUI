@@ -28,7 +28,7 @@ struct CategoryHome: View {
                     .clipped()
                     .listRowInsets(EdgeInsets())
                 
-                ForEach(categories.keys.sorted().identified(by: \.self)) { key in
+                ForEach(categories.keys.sorted(), id: \.self) { key in
                     CategoryRow(categoryName: key, items: self.categories[key]!)
                 }
                 .listRowInsets(EdgeInsets())

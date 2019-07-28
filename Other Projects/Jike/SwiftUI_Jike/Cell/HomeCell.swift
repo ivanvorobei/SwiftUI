@@ -32,7 +32,7 @@ struct HomeCell : View {
                             .bold()
                         Text(timeStamp)
                             .font(Font.system(size: 12))
-                            .color(Color.gray)
+                            .foregroundColor(Color.gray)
                             .padding(.top, 8)
                     }
                     Spacer()
@@ -57,7 +57,7 @@ struct HomeCell : View {
                         .bold()
                     Text("发布")
                         .font(Font.system(size: 13))
-                        .color(Color.gray)
+                        .foregroundColor(Color.gray)
                     Spacer()
                 }
                 

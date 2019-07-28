@@ -31,7 +31,7 @@ struct ActivityView : View {
                 CircleImage(imgName: "subIcon")
                 .padding(.leading, 10)
                 Text("发布动态...")
-                    .color(Color.gray)
+                    .foregroundColor(Color.gray)
                 Spacer()
             }
             HStack{

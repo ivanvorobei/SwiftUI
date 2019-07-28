@@ -19,7 +19,7 @@ extension Publisher {
 extension Publisher {
 
     static func empty() -> AnyPublisher<Output, Failure> {
-        return Publishers.Empty()
+        return Empty()
             .eraseToAnyPublisher()
     }
 
@@ -30,7 +30,7 @@ extension Publisher {
     }
 
     static func fail(_ error: Failure) -> AnyPublisher<Output, Failure> {
-        return Publishers.Fail(error: error)
+        return Fail(error: error)
             .eraseToAnyPublisher()
     }
 }

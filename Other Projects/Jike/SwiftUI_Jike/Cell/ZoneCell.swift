@@ -16,7 +16,7 @@ struct ZoneCell : View {
             Image(imgName)
             Text(title)
             .font(Font.system(size: 10))
-            .color(Color.gray)
+            .foregroundColor(Color.gray)
             .frame(alignment: .center)
         }
         

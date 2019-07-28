@@ -2,17 +2,17 @@ import SwiftUI
 import Combine
 
 final class SearchUserViewModel: BindableObject {
-    var didChange = PassthroughSubject<SearchUserViewModel, Never>()
+    var willChange = PassthroughSubject<SearchUserViewModel, Never>()
 
     private(set) var users = [User]() {
         didSet {
-            didChange.send(self)
+            willChange.send(self)
         }
     }
 
     private(set) var userImages = [User: UIImage]() {
         didSet {
-            didChange.send(self)
+            willChange.send(self)
         }
     }
 
