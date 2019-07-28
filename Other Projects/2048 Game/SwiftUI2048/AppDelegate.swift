@@ -38,14 +38,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         gameLogic.newGame()
     }
     
-    override func buildCommands(with builder: UICommandBuilder) {
+    override func buildMenu(with builder: UIMenuBuilder) {
         builder.remove(menu: .edit)
         builder.remove(menu: .format)
         builder.remove(menu: .view)
         
         builder.replaceChildren(ofMenu: .file) { oldChildren in
             var newChildren = oldChildren
-            let newGameItem = UIMutableKeyCommand(input: "N",
+            let newGameItem = UIKeyCommand(input: "N",
                                                   modifierFlags: .command,
                                                   action: #selector(newGame(_:)))
             newGameItem.title = "New Game"

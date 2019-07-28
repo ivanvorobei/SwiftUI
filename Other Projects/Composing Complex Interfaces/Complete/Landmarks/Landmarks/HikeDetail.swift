@@ -23,13 +23,13 @@ struct HikeDetail: View {
                 .frame(height: 200, alignment: .center)
             
             HStack(spacing: 25) {
-                ForEach(buttons.identified(by: \.0)) { value in
+                ForEach(buttons, id: \.0) { value in
                     Button(action: {
                         self.dataToShow = value.1
                     }) {
                         Text(verbatim: value.0)
                             .font(.system(size: 15))
-                            .color(value.1 == self.dataToShow
+                            .foregroundColor(value.1 == self.dataToShow
                                 ? Color.gray
                                 : Color.accentColor)
                             .animation(nil)

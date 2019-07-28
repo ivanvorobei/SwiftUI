@@ -10,7 +10,7 @@ struct SearchUserBar: View {
                 TextField(
                     $text,
                     placeholder: Text("Search User")
-                        .color(Color.gray)
+                        .foregroundColor(Color.gray)
                     )
                     .padding([.leading, .trailing], 8)
                     .frame(height: 32)

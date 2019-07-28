@@ -4,7 +4,7 @@ import Combine
 final class Store<State, Action>: BindableObject {
     typealias Reducer = (State, Action) -> State
 
-    let didChange = PassthroughSubject<State, Never>()
+    let willChange = PassthroughSubject<State, Never>()
 
     var state: State {
         lock.lock()
@@ -29,6 +29,6 @@ final class Store<State, Action>: BindableObject {
 
         lock.unlock()
 
-        didChange.send(newState)
+        willChange.send(newState)
     }
 }

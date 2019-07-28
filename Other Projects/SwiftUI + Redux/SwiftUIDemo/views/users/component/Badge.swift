@@ -21,7 +21,7 @@ struct Badge : View {
     
     var body: some View {
         Text(text)
-            .color(.white)
+            .foregroundColor(.white)
             .padding()
             .background(color)
             .cornerRadius(8)

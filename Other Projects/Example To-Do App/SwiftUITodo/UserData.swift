@@ -15,12 +15,12 @@ private let defaultTasks: [Task] = [
 ]
 
 final class UserData: BindableObject {
-  let didChange = PassthroughSubject<UserData, Never>()
+  let willChange = PassthroughSubject<UserData, Never>()
 
   @UserDefaultValue(key: "Tasks", defaultValue: defaultTasks)
   var tasks: [Task] {
     didSet {
-      didChange.send(self)
+      willChange.send(self)
     }
   }
 }

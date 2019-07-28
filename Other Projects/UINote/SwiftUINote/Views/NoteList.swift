@@ -33,7 +33,7 @@ struct NoteList : View {
 #if DEBUG
 struct NoteList_Previews : PreviewProvider {
     static var previews: some View {
-        ForEach(["iPhone SE", "iPhone XS Max"].identified(by: \.self)) { deviceName in
+        ForEach(["iPhone SE", "iPhone XS Max"], id: \.self) { deviceName in
             NoteList()
                 .environmentObject(UserData())
                 .previewDevice(PreviewDevice(rawValue: deviceName))

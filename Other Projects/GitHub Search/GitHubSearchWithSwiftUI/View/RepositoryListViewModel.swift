@@ -13,7 +13,7 @@ import SwiftUI
 final class RepositoryListViewModel: BindableObject {
     typealias SearchRepositories = (String) -> AnyPublisher<Result<[Repository], ErrorResponse>, Never>
 
-    let didChange: AnyPublisher<RepositoryListViewModel, Never>
+    let willChange: AnyPublisher<RepositoryListViewModel, Never>
     private let _didChange = PassthroughSubject<RepositoryListViewModel, Never>()
 
     private let _searchWithQuery = PassthroughSubject<String, Never>()
@@ -34,7 +34,7 @@ final class RepositoryListViewModel: BindableObject {
     init<S: Scheduler>(searchRepositories: @escaping SearchRepositories = RepositoryAPI.search,
                        mainScheduler: S) {
 
-        self.didChange = _didChange.eraseToAnyPublisher()
+        self.willChange = _didChange.eraseToAnyPublisher()
 
         let response = _searchWithQuery
             .filter { !$0.isEmpty }

@@ -17,7 +17,7 @@ struct ContentView: View {
             Text("Learning SwiftUI")
                 .font(.largeTitle)
                 .fontWeight(.semibold)
-                .color(.black)
+                .foregroundColor(.black)
                 .padding(4)
                 .animation(.basic(duration: 0.3, curve: .easeOut))
             
@@ -33,7 +33,7 @@ struct ContentView: View {
             Text("A course focused on UI")
                 .font(.subheadline)
                 .fontWeight(.regular)
-                .color(.gray)
+                .foregroundColor(.gray)
                 .padding(4)
                 .animation(.basic(duration: 0.4, curve: .easeIn))
             

@@ -14,7 +14,7 @@ struct CategoryRow: View {
         VStack(alignment: .leading) {
             ScrollView(.horizontal) {
                 HStack(alignment: .top, spacing: 0) {
-                    ForEach(self.items.identified(by: \.id)) { zone in
+                    ForEach(self.items, id: \.id) { zone in
                             CategoryItem(zone: zone)
                     }
                 }

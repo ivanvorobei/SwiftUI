@@ -32,13 +32,13 @@ private let defaultCurrencies: [Currency] = [
     Currency(name: "Canadian dollar", rate: 1.0, symbol: "CA", code: "CAD")
 ]
 
-@propertyDelegate
+@propertyWrapper
 struct UserDefaultValue<Value: Codable> {
     
     let key: String
     let defaultValue: Value
     
-    var value: Value {
+    var wrappedValue: Value {
         get {
             let data = UserDefaults.standard.data(forKey: key)
             let value = data.flatMap { try? JSONDecoder().decode(Value.self, from: $0) }
@@ -52,26 +52,26 @@ struct UserDefaultValue<Value: Codable> {
 }
 
 final class UserData: BindableObject {
-    let didChange = PassthroughSubject<UserData, Never>()
+    let willChange = PassthroughSubject<UserData, Never>()
     
     @UserDefaultValue(key: "allCurrencies", defaultValue: defaultCurrencies)
     var allCurrencies: [Currency] {
         didSet {
-            didChange.send(self)
+            willChange.send(self)
         }
     }
     
     @UserDefaultValue(key: "baseCurrency", defaultValue: defaultCurrencies[0])
     var baseCurrency: Currency {
         didSet {
-            didChange.send(self)
+            willChange.send(self)
         }
     }
     
     @UserDefaultValue(key: "userCurrency", defaultValue: defaultCurrencies)
     var userCurrency: [Currency] {
         didSet {
-            didChange.send(self)
+            willChange.send(self)
         }
     }
 }

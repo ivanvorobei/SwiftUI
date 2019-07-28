@@ -25,7 +25,7 @@ struct HomeView : View {
                         .padding(EdgeInsets(top: 5, leading: 5, bottom: 5, trailing: 5))
                         Text("优衣库KAWS遭疯抢")
                         .font(Font.system(size: 14))
-                        .color(Color.gray)
+                        .foregroundColor(Color.gray)
                         Spacer()
                         }
                         .background(

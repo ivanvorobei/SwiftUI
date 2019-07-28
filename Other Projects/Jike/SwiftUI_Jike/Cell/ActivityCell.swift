@@ -32,7 +32,7 @@ struct ActivityCell : View {
                     }
                     Text(timeStamp)
                     .font(Font.system(size: 12))
-                    .color(Color.gray)
+                    .foregroundColor(Color.gray)
                     .padding(.bottom, 2)
                     
                     Text(content)
