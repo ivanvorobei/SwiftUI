@@ -11,6 +11,7 @@ import AVKit
 import CoreLocation
 
 struct ContentView : View {
+    @State private var isCameraPresented = false
     var instaPhotos: [InstaPhoto]
   
     var body: some View {
@@ -19,7 +20,17 @@ struct ContentView : View {
                 ForEach(instaPhotos, id: \.id) {
                     ImageCell(photo: $0)
                 }
-            }.navigationBarTitle("WWDC").navigationBarItems(trailing: PresentationLink("Camera", destination: CameraView()))
+            }.navigationBarTitle("WWDC").navigationBarItems(trailing:
+                Button(action: {
+                    self.isCameraPresented = true
+                }) {
+                    Image(systemName: "person.crop.circle")
+                        .imageScale(.large)
+                        .accessibility(label: Text("User Profile"))
+                        .padding()
+                }
+            ).sheet(isPresented: $isCameraPresented,
+                    content: { CameraView() })
         }
     }
     

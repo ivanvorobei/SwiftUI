@@ -13,15 +13,6 @@ struct UserDetailView : View {
     @EnvironmentObject var state: AppState
     let userId: Int
     
-    var editModal: Modal {
-        let user = state.usersState.users[userId]
-        return Modal(UserEditForm(userId: user.id, saveHandler: { saved in
-            self.state.dispatch(action: UserActions.stopEditUser)
-        }).environmentObject(state)) {
-            self.state.dispatch(action: UserActions.stopEditUser)
-        }
-    }
-    
     var body: some View {
         let user = state.usersState.users[userId]
         return VStack {
@@ -36,7 +27,11 @@ struct UserDetailView : View {
                 }) {
                     Text("Edit user")
                     }
-                    .presentation(self.state.usersState.isEditingUser ? self.editModal : nil))
+                .sheet(isPresented: $state.usersState.isEditingUser) {
+                    UserEditForm(userId: user.id, saveHandler: { saved in
+                                self.state.dispatch(action: UserActions.stopEditUser)
+                            })
+            })
     }
 }
 

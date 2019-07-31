@@ -22,8 +22,7 @@ struct TaskEditView: View {
     let inset = EdgeInsets(top: -8, leading: -10, bottom: -7, trailing: -10)
     return VStack(alignment: .leading, spacing: 0) {
       TextField(
-        self.draftTitle.binding,
-        placeholder: Text("Enter New Title..."),
+        "Enter New Title...", text: self.draftTitle.binding,
         onEditingChanged: { _ in self.updateTask() },
         onCommit: {}
       )

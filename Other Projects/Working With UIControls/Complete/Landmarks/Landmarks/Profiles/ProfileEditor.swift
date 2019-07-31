@@ -15,7 +15,7 @@ struct ProfileEditor: View {
             HStack {
                 Text("Username").bold()
                 Divider()
-                TextField($profile.username)
+                TextField("", text: $profile.username)
             }
             
             Toggle(isOn: $profile.prefersNotifications) {
@@ -24,21 +24,20 @@ struct ProfileEditor: View {
             
             VStack(alignment: .leading, spacing: 20) {
                 Text("Seasonal Photo").bold()
-                
-                SegmentedControl(selection: $profile.seasonalPhoto) {
+
+                Picker("", selection: $profile.seasonalPhoto) {
                     ForEach(Profile.Season.allCases, id: \.self) { season in
                         Text(season.rawValue).tag(season)
                     }
-                }
+                }.pickerStyle(SegmentedPickerStyle())
             }
             .padding(.top)
             
             VStack(alignment: .leading, spacing: 20) {
                 Text("Goal Date").bold()
                 DatePicker(
-                    $profile.goalDate,
-                    minimumDate: Calendar.current.date(byAdding: .year, value: -1, to: profile.goalDate),
-                    maximumDate: Calendar.current.date(byAdding: .year, value: 1, to: profile.goalDate),
+                    "", selection: $profile.goalDate,
+                    in: Calendar.current.date(byAdding: .year, value: -1, to: profile.goalDate)! ... Calendar.current.date(byAdding: .year, value: 1, to: profile.goalDate)!,
                     displayedComponents: .date
                 )
             }

@@ -50,7 +50,7 @@ struct ConverterView : View {
                     }
                     Spacer()
                     // Amount and conversion
-                    TextField($baseAmount, placeholder: Text("1.0"), onCommit: {
+                    TextField("1.0", text: $baseAmount, onCommit: {
                         // TODO: update all currencies on the following list
                     }).foregroundColor(.white)
                         .background(

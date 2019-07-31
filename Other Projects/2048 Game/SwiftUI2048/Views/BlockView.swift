@@ -89,7 +89,7 @@ struct BlockView : View {
                 .foregroundColor(colorPair.1)
                 .id(numberText)
                 .transition(AnyTransition.scale(scale: 0.5, anchor: .center).combined(with: .opacity))
-                .animation(.fluidSpring())
+//                .animation(.fluidSpring())
         }
         .clipped()
         .cornerRadius(6)
@@ -104,7 +104,7 @@ struct BlockView_Previews : PreviewProvider {
     
     static var previews: some View {
         Group {
-            ForEach((1...11).map { Int(pow(2, Double($0))) }) { i in
+            ForEach((1...11).map { Int(pow(2.0, Double($0))) }, id: \.self) { i in
                 BlockView(number: i)
                     .previewLayout(.sizeThatFits)
             }

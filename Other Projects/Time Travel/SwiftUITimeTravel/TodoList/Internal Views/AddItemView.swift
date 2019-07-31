@@ -11,7 +11,7 @@ struct AddItemView: View {
             setValue: { self.store.dispatch(event: .changePartialItemName($0)) })
         
         return VStack(spacing: 16) {
-            TextField(textBinding, placeholder: Text("Title"))
+            TextField("Title", text: textBinding)
             Button(action: {
                 self.store.dispatch(event: .addItem)
             }) {
@@ -22,7 +22,7 @@ struct AddItemView: View {
                 }
 
                 }
-                .relativeWidth(1.0)
+//                .relativeWidth(1.0)
                 .background(Color.accentColor)
                 .disabled(store.state.partialItemName.isEmpty)
                 .foregroundColor(.white)
