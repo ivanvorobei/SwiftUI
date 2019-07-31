@@ -22,7 +22,7 @@ struct ProfileSummary: View {
                 .bold()
                 .font(.title)
             
-            Text("Notifications: \(self.profile.prefersNotifications ? "On": "Off" )")
+            Text("Notifications: \(self.profile.prefersNotifications ? "Onn": "Off" )")
             
             Text("Seasonal Photos: \(self.profile.seasonalPhoto.rawValue)")
             
@@ -37,7 +37,7 @@ struct ProfileSummary: View {
                         
                         HikeBadge(name: "Earth Day")
                             .hueRotation(Angle(degrees: 90))
-                               
+
                         HikeBadge(name: "Tenth Hike")
                             .grayscale(0.5)
                             .hueRotation(Angle(degrees: 45))

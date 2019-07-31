@@ -19,7 +19,7 @@ struct ContentView: View {
                 .fontWeight(.semibold)
                 .foregroundColor(.black)
                 .padding(4)
-                .animation(.basic(duration: 0.3, curve: .easeOut))
+//                .animation(.basic(duration: 0.3, curve: .easeOut))
             
             Image("ui")
                 .frame(width: show ? 414 : 300, height: show ? 600 : 300)
@@ -35,7 +35,7 @@ struct ContentView: View {
                 .fontWeight(.regular)
                 .foregroundColor(.gray)
                 .padding(4)
-                .animation(.basic(duration: 0.4, curve: .easeIn))
+//                .animation(.basic(duration: 0.4, curve: .easeIn))
             
             Button(action: {
                 withAnimation {

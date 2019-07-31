@@ -24,11 +24,11 @@
         return NavigationView {
             VStack(alignment: .leading, spacing: 10) {
                 Text("User name")
-                TextField($newUserName, placeholder: Text("New name"))
+                TextField("New name", text: $newUserName)
                     .textFieldStyle(.roundedBorder)
                 Divider()
                 Text("Username")
-                TextField($newUserUsername, placeholder: Text("New username"))
+                TextField("New username", text: $newUserUsername)
                     .textFieldStyle(.roundedBorder)
                 }.padding(16)
             Button(action: save) {
