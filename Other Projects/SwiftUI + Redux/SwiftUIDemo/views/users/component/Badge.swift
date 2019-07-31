@@ -15,7 +15,7 @@ struct Badge : View {
     
     var animation: Animation {
         Animation
-            .spring(initialVelocity: 5)
+            .spring()
             .speed(2)
     }
     

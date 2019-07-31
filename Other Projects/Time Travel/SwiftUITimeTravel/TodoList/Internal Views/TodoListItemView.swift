@@ -8,8 +8,8 @@ struct TodoListItemView : View {
 
     var body: some View {
         let binding = Binding(
-            getValue: { self.item.isFinished },
-            setValue: { self.store.dispatch(event: .setItemDone(identifier: self.item.id, isDone: $0)) })
+            get: { self.item.isFinished },
+            set: { self.store.dispatch(event: .setItemDone(identifier: self.item.id, isDone: $0)) })
         
         return Toggle(isOn: binding) {
             Text(item.title)

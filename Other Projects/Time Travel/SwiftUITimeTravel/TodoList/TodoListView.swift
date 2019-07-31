@@ -22,7 +22,7 @@ struct TodoListView : View {
                 VStack {
                     Spacer()
                     AddItemView()
-                        .relativeWidth(1.0)
+//                        .relativeWidth(1.0)
                         .background(Color.white)
                         .cornerRadius(12.0)
                         .shadow(radius: 16.0)
