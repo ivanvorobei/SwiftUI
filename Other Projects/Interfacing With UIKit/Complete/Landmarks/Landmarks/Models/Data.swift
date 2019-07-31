@@ -52,7 +52,7 @@ final class ImageStore {
             ?? _sizeImage(images.values[index][ImageStore.originalSize]!, to: size * ImageStore.scale)
         images.values[index][size] = sizedImage
         
-        return Image(sizedImage, scale: Length(ImageStore.scale), label: Text(verbatim: name))
+        return Image(sizedImage, scale: CGFloat(ImageStore.scale), label: Text(verbatim: name))
     }
 
     static func loadImage(name: String) -> CGImage {

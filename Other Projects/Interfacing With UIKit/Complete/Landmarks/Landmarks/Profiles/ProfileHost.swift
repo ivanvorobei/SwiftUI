@@ -17,7 +17,7 @@ struct ProfileHost: View {
             HStack {
                 if self.mode?.value == .active {
                     Button(action: {
-                        self.profile = self.draftProfile
+                        self.draftProfile = self.profile
                         self.mode?.animation().value = .inactive
                     }) {
                         Text("Done")
@@ -33,7 +33,7 @@ struct ProfileHost: View {
             } else {
                 ProfileEditor(profile: $draftProfile)
                     .onDisappear {
-                        self.draftProfile = self.profile
+                        self.profile = self.draftProfile
                     }
             }
         }

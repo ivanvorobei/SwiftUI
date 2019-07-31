@@ -24,8 +24,7 @@ struct NoteDetail : View {
     
     var body: some View {
         VStack {
-            TextField(self.text.binding,
-                      placeholder: nil,
+            TextField("", text: self.text.binding,
                       onEditingChanged: { _ in self.updateNote()},
                       onCommit: {})
             Spacer()

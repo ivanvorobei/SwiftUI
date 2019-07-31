@@ -40,7 +40,7 @@ struct HikeGraph: View {
         let data = hike.observations
         let overallRange = rangeOfRanges(data.lazy.map { $0[keyPath: self.path] })
         let maxMagnitude = data.map { magnitude(of: $0[keyPath: path]) }.max()!
-        let heightRatio = 1 - Length(maxMagnitude / magnitude(of: overallRange))
+        let heightRatio = 1 - CGFloat(maxMagnitude / magnitude(of: overallRange))
 
         return GeometryReader { proxy in
             HStack(alignment: .bottom, spacing: proxy.size.width / 120) {

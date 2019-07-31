@@ -17,7 +17,7 @@ struct ContentView : View {
     
     var body: some View {
         List {
-            ForEach(state.moviesState.popular) { id in
+            ForEach(state.moviesState.popular, id: \.self) { id in
                 Text(self.state.moviesState.movies[id]?.original_title ?? "No title")
             }
         }

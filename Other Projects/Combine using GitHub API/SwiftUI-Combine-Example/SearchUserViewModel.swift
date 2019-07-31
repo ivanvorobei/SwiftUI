@@ -54,7 +54,7 @@ final class SearchUserViewModel: BindableObject {
             .replaceError(with: nil)
             .eraseToAnyPublisher()
             .receive(on: DispatchQueue.main)
-            .receive(subscriber: Subscribers.Sink<UIImage?, Never> { [weak self] image in
+            .receive(subscriber: Subscribers.Sink<UIImage?, Never>(receiveCompletion: {_ in}) { [weak self] image in
                 self?.userImages[user] = image
             })
     }
