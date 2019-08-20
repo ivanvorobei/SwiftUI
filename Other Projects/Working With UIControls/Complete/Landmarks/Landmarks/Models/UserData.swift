@@ -9,18 +9,7 @@ import Combine
 import SwiftUI
 
 final class UserData: ObservableObject {
+    @Published var showFavoritesOnly = false
 
-    let objectWillChange = PassthroughSubject<UserData, Never>()
-    
-    var showFavoritesOnly = false {
-        didSet {
-            objectWillChange.send(self)
-        }
-    }
-
-    var landmarks = landmarkData {
-        didSet {
-            objectWillChange.send(self)
-        }
-    }
+    @Published var landmarks = landmarkData
 }
