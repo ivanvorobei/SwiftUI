@@ -113,7 +113,7 @@ For change state using `@State` as property:
 
 ### Currency Converter & Calculator
 
-[Source](https://github.com/CurrencyConverterCalculator/iosCCCr)
+[Source](https://github.com/CurrencyConverterCalculator/iosCCC)
 
 <p align="center"><img src="https://github.com/CurrencyConverterCalculator/iosCCC/blob/master/iosCCC.gif" width="500px"/></p>
 
