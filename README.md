@@ -24,6 +24,7 @@ and follow me on GitHub:
 
 #### Other projects
 
+- [Currency Converter & Calculator](#transition-and-blur)
 - [Transition And Blur](#transition-and-blur)
 - [2048 Game](#2048-game)
 - [SFSymbols](#sfsymbols)
@@ -109,6 +110,12 @@ For change state using `@State` as property:
 ```swift
 @State var show = false
 ```
+
+### SwiftUI Currency
+
+[Source](https://github.com/CurrencyConverterCalculator/iosCCCr)
+
+<img src="Resources/iosCCC" width="300">
 
 ## Transition And Blur
 
