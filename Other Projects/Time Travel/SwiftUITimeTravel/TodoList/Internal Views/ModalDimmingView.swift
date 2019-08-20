@@ -12,7 +12,7 @@ struct ModalDimmingView : View {
             .opacity(0.3)
             .edgesIgnoringSafeArea([.bottom, .top])
             .transition(.opacity)
-            .tapAction {
+            .onTapGesture {
                 self.store.dispatch(event: .cancelCreatingItem)
             }
     }

@@ -31,7 +31,7 @@ struct CategoryItem: View {
             VStack{
                 Color.white
                     .frame(width:65,height:65)
-                    .border(Color(red: 218.0/255.0, green: 218.0/255.0, blue: 218.0/255.0),width: 3,cornerRadius: 15)
+                    .background(RoundedRectangle(cornerRadius: 15).strokeBorder(Color(red: 218.0/255.0, green: 218.0/255.0, blue: 218.0/255.0), lineWidth: 3))
                     .cornerRadius(15)
                 zone
                     .image(forSize: 55)

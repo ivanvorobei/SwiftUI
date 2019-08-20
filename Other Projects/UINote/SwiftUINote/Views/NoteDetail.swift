@@ -24,7 +24,7 @@ struct NoteDetail : View {
     
     var body: some View {
         VStack {
-            TextField("", text: self.text.binding,
+            TextField("", text: self.text.projectedValue,
                       onEditingChanged: { _ in self.updateNote()},
                       onCommit: {})
             Spacer()
@@ -35,7 +35,7 @@ struct NoteDetail : View {
     }
     
     private func updateNote() {
-        self.userData.notes[noteIndex].text = self.text.value
+        self.userData.notes[noteIndex].text = self.text.wrappedValue
     }
 }
 

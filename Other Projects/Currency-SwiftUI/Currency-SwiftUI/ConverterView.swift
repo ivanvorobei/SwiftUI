@@ -34,7 +34,7 @@ struct ConverterView : View {
     
     var body: some View {
         let inset = EdgeInsets(top: -8, leading: -20, bottom: -7, trailing: 5)
-        let doubleValue: Double = Double(self.$baseAmount.value) ?? 1.0
+        let doubleValue: Double = Double(self.$baseAmount.wrappedValue) ?? 1.0
         
         return ZStack(alignment: Alignment.bottomTrailing) {
             NavigationView {
@@ -56,7 +56,7 @@ struct ConverterView : View {
                         .background(
                             RoundedRectangle(cornerRadius: 5)
                                 .fill(Color.clear)
-                                .border(Color(red: 0.7, green: 0.7, blue: 0.7), width: 1 / UIScreen.main.scale, cornerRadius: 5)
+                                .background(RoundedRectangle(cornerRadius: 5).strokeBorder(Color(red: 0.7, green: 0.7, blue: 0.7), lineWidth: 1 / UIScreen.main.scale))
                                 .padding(inset)
                         )
                 }.background(Color.blue).cornerRadius(5)
@@ -64,7 +64,7 @@ struct ConverterView : View {
                 List {
                     // TODO: should filter out BaseCurrency from list
                     ForEach(userData.userCurrency) { currency in
-                        	CurrencyItemView(currency: currency, baseAmount: doubleValue, isEditing: self.$isEditing).tapAction {
+                        CurrencyItemView(currency: currency, baseAmount: doubleValue, isEditing: self.$isEditing).onTapGesture {
                             	// Swap this and base
                             	self.userData.baseCurrency = currency
                         	}
@@ -89,7 +89,7 @@ struct ConverterView : View {
                 .background(
                     RoundedRectangle(cornerRadius: 23)
                         .fill(Color.blue)
-                        .border(Color(red: 0.7, green: 0.7, blue: 0.7), width: 1 / UIScreen.main.scale, cornerRadius: 23))
+                        .background(RoundedRectangle(cornerRadius: 23).strokeBorder(Color(red: 0.7, green: 0.7, blue: 0.7), lineWidth: 1 / UIScreen.main.scale)))
                 .foregroundColor(.white).font(.largeTitle)
         }.padding()
                 }
