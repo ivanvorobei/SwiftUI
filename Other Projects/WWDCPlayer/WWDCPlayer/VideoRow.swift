@@ -32,13 +32,13 @@ struct VideoRow : View {
                 
                 Image(systemName: video.isFavorite ? "star.fill" : "star")
                     .foregroundColor(video.isFavorite ? Color.yellow : Color.gray)
-                    .tapAction {
+                    .onTapGesture {
                         self.setFavorite(video: self.video)
                     }
             }
         }
         .padding([.top, .bottom], 10)
-        .tapAction {
+        .onTapGesture {
             self.setCurrentVideo(video: self.video)
         }
     }

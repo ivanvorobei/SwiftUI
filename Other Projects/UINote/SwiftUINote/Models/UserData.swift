@@ -9,12 +9,12 @@
 import SwiftUI
 import Combine
 
-final class UserData: BindableObject {
-    let willChange = PassthroughSubject<UserData, Never>()
+final class UserData: ObservableObject {
+    let objectWillChange = PassthroughSubject<UserData, Never>()
     
     var notes = NoteData.shared.notes {
         didSet {
-            willChange.send(self)
+            objectWillChange.send(self)
             NoteData.shared.notes = notes
         }
     }

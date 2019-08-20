@@ -77,7 +77,7 @@ struct BlockGridView : View {
                               y: CGFloat(block.index.1) * (65 + 12) + 32.5 + 12)
                     .zIndex(self.zIndex(block.item))
                     .transition(.blockAppear(from: self.blockEnterEdge))
-                    .animation(block.item == nil ? nil : .spring(mass: 1, stiffness: 400, damping: 56, initialVelocity: 0))
+//                    .animation(block.item == nil ? nil : .spring(mass: 1, stiffness: 400, damping: 56, initialVelocity: 0))
             }
         }
         .frame(width: 320, height: 320, alignment: .center)

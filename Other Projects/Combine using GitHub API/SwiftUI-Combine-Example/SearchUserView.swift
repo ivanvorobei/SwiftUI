@@ -13,7 +13,7 @@ struct SearchUserView: View {
 
                 List(viewModel.users) { user in
                     SearchUserRow(user: user)
-                        .tapAction { print(user) }
+                        .onTapGesture { print(user) }
                 }
                 }
                 .navigationBarTitle(Text("Users"))

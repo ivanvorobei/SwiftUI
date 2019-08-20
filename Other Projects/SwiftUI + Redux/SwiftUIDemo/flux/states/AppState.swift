@@ -10,8 +10,8 @@ import Foundation
 import SwiftUI
 import Combine
 
-final class AppState: BindableObject {
-    var willChange = PassthroughSubject<AppState, Never>()
+final class AppState: ObservableObject {
+    var objectWillChange = PassthroughSubject<AppState, Never>()
     
     var usersState: UsersState
     
@@ -21,7 +21,7 @@ final class AppState: BindableObject {
     
     func dispatch(action: Action) {
         usersState = UserStateReducer().reduce(state: usersState, action: action)
-        willChange.send(self)
+        objectWillChange.send(self)
     }
 }
 

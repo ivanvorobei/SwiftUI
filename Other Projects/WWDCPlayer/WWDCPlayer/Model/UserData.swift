@@ -8,24 +8,24 @@
 import SwiftUI
 import Combine
 
-final class UserData: BindableObject  {
-    let willChange = PassthroughSubject<UserData, Never>()
+final class UserData: ObservableObject  {
+    let objectWillChange = PassthroughSubject<UserData, Never>()
     
     var showFavoriteOnly = false {
         didSet {
-            willChange.send(self)
+            objectWillChange.send(self)
         }
     }
     
     var videos = videoList {
         didSet {
-            willChange.send(self)
+            objectWillChange.send(self)
         }
     }
     
     var currentVideo = videoList[0] {
         didSet {
-            willChange.send(self)
+            objectWillChange.send(self)
         }
     }
 }

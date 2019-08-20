@@ -8,18 +8,18 @@ A model object that stores app data.
 import Combine
 import SwiftUI
 
-final class UserData: BindableObject {
-    let willChange = PassthroughSubject<UserData, Never>()
+final class UserData: ObservableObject {
+    let objectWillChange = PassthroughSubject<UserData, Never>()
     
     var showFavoritesOnly = false {
         didSet {
-            willChange.send(self)
+            objectWillChange.send(self)
         }
     }
 
     var landmarks = landmarkData {
         didSet {
-            willChange.send(self)
+            objectWillChange.send(self)
         }
     }
 }

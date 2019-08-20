@@ -25,12 +25,12 @@
             VStack(alignment: .leading, spacing: 10) {
                 Text("User name")
                 TextField("New name", text: $newUserName)
-                    .textFieldStyle(.roundedBorder)
+                    .textFieldStyle(RoundedBorderTextFieldStyle())
                 Divider()
                 Text("Username")
                 TextField("New username", text: $newUserUsername)
-                    .textFieldStyle(.roundedBorder)
-                }.padding(16)
+                    .textFieldStyle(RoundedBorderTextFieldStyle())
+            }.padding(16)
             Button(action: save) {
                 Text("Save")
                     .padding(8)
@@ -42,7 +42,7 @@
                     Text("Close")
                 })
                 .navigationBarTitle(Text("Edit \(user.name)"), displayMode: .inline)
-            
+
             Badge(text: "Saved successfully", color: .green, show: $showSaved)
             Badge(text: "Missing username or name", color: .red, show: $showError)
         }
