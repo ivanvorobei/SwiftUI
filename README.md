@@ -111,11 +111,11 @@ For change state using `@State` as property:
 @State var show = false
 ```
 
-### SwiftUI Currency
+### Currency Converter & Calculator
 
 [Source](https://github.com/CurrencyConverterCalculator/iosCCCr)
 
-<img src="Resources/iosCCC" width="300">
+<p align="center"><img src="https://github.com/CurrencyConverterCalculator/iosCCC/blob/master/iosCCC.gif" width="500px"/></p>
 
 ## Transition And Blur
 
