@@ -10,7 +10,7 @@ import Foundation
 import SwiftUI
 import Combine
 
-final class GameLogic : BindableObject {
+final class GameLogic : ObservableObject {
     
     enum Direction {
         case left
@@ -21,7 +21,7 @@ final class GameLogic : BindableObject {
     
     typealias BlockMatrixType = BlockMatrix<IdentifiedBlock>
     
-    let willChange = PassthroughSubject<GameLogic, Never>()
+    let objectWillChange = PassthroughSubject<GameLogic, Never>()
     
     fileprivate var _blockMatrix: BlockMatrixType!
     var blockMatrix: BlockMatrixType {
@@ -42,12 +42,12 @@ final class GameLogic : BindableObject {
         _blockMatrix = BlockMatrixType()
         generateNewBlocks()
         
-        willChange.send(self)
+        objectWillChange.send(self)
     }
     
     func move(_ direction: Direction) {
         defer {
-            willChange.send(self)
+            objectWillChange.send(self)
         }
         
         var moved = false
@@ -136,7 +136,7 @@ final class GameLogic : BindableObject {
         
         // Don't forget to sync data.
         defer {
-            willChange.send(self)
+            objectWillChange.send(self)
         }
         
         // Place the first block.

@@ -42,7 +42,7 @@ struct Calculator: View {
                 .foregroundColor(Color.blue)
                 .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
                 .background(Color(red: 234 / 255.0, green: 240 / 255.0, blue: 241 / 255.0))
-                .tapAction {
+                .onTapGesture {
                   self.touchAction(item)
               }
             }

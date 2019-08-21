@@ -33,7 +33,7 @@ struct UsersListView : View {
                         .onMove(perform: move)
                 }
             }
-                .listStyle(.grouped)
+                .listStyle(GroupedListStyle())
                 .navigationBarTitle(Text("Users (\(state.usersState.users.count))"))
                 .navigationBarItems(trailing: EditButton())
         }

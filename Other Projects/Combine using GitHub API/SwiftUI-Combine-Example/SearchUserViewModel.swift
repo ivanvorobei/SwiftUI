@@ -1,24 +1,12 @@
 import SwiftUI
 import Combine
 
-final class SearchUserViewModel: BindableObject {
-    var willChange = PassthroughSubject<SearchUserViewModel, Never>()
+final class SearchUserViewModel: ObservableObject {
+    @Published private(set) var users = [User]()
 
-    private(set) var users = [User]() {
-        didSet {
-            willChange.send(self)
-        }
-    }
+    @Published private(set) var userImages = [User: UIImage]()
 
-    private(set) var userImages = [User: UIImage]() {
-        didSet {
-            willChange.send(self)
-        }
-    }
-
-    private var cancellable: Cancellable? {
-        didSet { oldValue?.cancel() }
-    }
+    @Published private var cancellable: Cancellable?
 
     func search(name: String) {
         guard !name.isEmpty else {
