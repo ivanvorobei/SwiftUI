@@ -19,7 +19,7 @@ struct TaskItemView: View {
       if self.isEditing {
         Image(systemName: "minus.circle")
           .foregroundColor(.red)
-          .tapAction(count: 1) {
+          .onTapGesture(count: 1) {
             self.delete()
           }
         NavigationLink(destination: TaskEditView(task: task).environmentObject(self.userData)) {

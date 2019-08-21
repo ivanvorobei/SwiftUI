@@ -51,27 +51,27 @@ struct UserDefaultValue<Value: Codable> {
     }
 }
 
-final class UserData: BindableObject {
-    let willChange = PassthroughSubject<UserData, Never>()
+final class UserData: ObservableObject {
+    let objectWillChange = PassthroughSubject<UserData, Never>()
     
     @UserDefaultValue(key: "allCurrencies", defaultValue: defaultCurrencies)
     var allCurrencies: [Currency] {
         didSet {
-            willChange.send(self)
+            objectWillChange.send(self)
         }
     }
     
     @UserDefaultValue(key: "baseCurrency", defaultValue: defaultCurrencies[0])
     var baseCurrency: Currency {
         didSet {
-            willChange.send(self)
+            objectWillChange.send(self)
         }
     }
     
     @UserDefaultValue(key: "userCurrency", defaultValue: defaultCurrencies)
     var userCurrency: [Currency] {
         didSet {
-            willChange.send(self)
+            objectWillChange.send(self)
         }
     }
 }

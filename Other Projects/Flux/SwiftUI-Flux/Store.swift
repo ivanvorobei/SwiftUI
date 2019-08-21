@@ -1,10 +1,10 @@
 import SwiftUI
 import Combine
 
-final class Store<State, Action>: BindableObject {
+final class Store<State, Action>: ObservableObject {
     typealias Reducer = (State, Action) -> State
 
-    let willChange = PassthroughSubject<State, Never>()
+    let objectWillChange = PassthroughSubject<State, Never>()
 
     var state: State {
         lock.lock()
@@ -29,6 +29,6 @@ final class Store<State, Action>: BindableObject {
 
         lock.unlock()
 
-        willChange.send(newState)
+        objectWillChange.send(newState)
     }
 }

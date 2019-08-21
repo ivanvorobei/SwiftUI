@@ -14,13 +14,13 @@ private let defaultTasks: [Task] = [
   Task(title: "Watch WWDC19 Keynote 🎉", isDone: true),
 ]
 
-final class UserData: BindableObject {
-  let willChange = PassthroughSubject<UserData, Never>()
+final class UserData: ObservableObject {
+  let objectWillChange = PassthroughSubject<UserData, Never>()
 
   @UserDefaultValue(key: "Tasks", defaultValue: defaultTasks)
   var tasks: [Task] {
     didSet {
-      willChange.send(self)
+      objectWillChange.send(self)
     }
   }
 }

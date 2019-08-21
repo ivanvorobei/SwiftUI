@@ -1,12 +1,12 @@
 import SwiftUI
 import Combine
 
-public final class Store<StateType>: BindableObject where StateType: StateMachine {
+public final class Store<StateType>: ObservableObject where StateType: StateMachine {
     
     private let initialState: StateType
     private var subsequentStates: [StateType] = []
 
-    public let willChange = PassthroughSubject<Void, Never>()
+    public let objectWillChange = PassthroughSubject<Void, Never>()
     
     public init(state: StateType) {
         initialState = state
@@ -23,7 +23,7 @@ public final class Store<StateType>: BindableObject where StateType: StateMachin
     var currentStateIndex: Int = 0 {
         didSet {
             withAnimation {
-                willChange.send(())
+                objectWillChange.send(())
             }
         }
     }

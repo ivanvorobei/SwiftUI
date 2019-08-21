@@ -13,7 +13,7 @@ struct TabbarView : View {
     @State var selectedIndex: Int = 0
     
     var body: some View {
-        TabbedView(selection: $selectedIndex) {
+        TabView(selection: $selectedIndex) {
             UsersListView()
                 .tabItem({ Text("Users") })
             MapView()

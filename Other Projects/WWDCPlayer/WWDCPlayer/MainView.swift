@@ -67,6 +67,6 @@ struct VideoListView : View {
                     }
                 }
             }
-        }.listStyle(.grouped)
+        }.listStyle(GroupedListStyle())
     }
 }
