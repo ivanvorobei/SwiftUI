@@ -13,6 +13,7 @@ struct VideoRow : View {
     @EnvironmentObject var userData: UserData
     
     var video: Video
+    var isFavorite = false
     
     var body: some View {
         HStack {
