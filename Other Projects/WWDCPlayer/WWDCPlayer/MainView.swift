@@ -62,7 +62,7 @@ struct VideoListView : View {
                 Section(header: Text(day.rawValue.uppercased()).fontWeight(.bold)) {
                     ForEach(self.userData.videos.filter { $0.weekDay == day }) { video in
                         if !self.userData.showFavoriteOnly || video.isFavorite {
-                            VideoRow(video: video)
+                            VideoRow(video: video, isFavorite: video.isFavorite)
                         }
                     }
                 }
