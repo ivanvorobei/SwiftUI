@@ -115,7 +115,7 @@ For change state using `@State` as property:
 
 [Source](https://github.com/CurrencyConverterCalculator/iosCCC)
 
-<p align="center"><img src="https://github.com/CurrencyConverterCalculator/iosCCC/blob/master/iosCCC.gif" width="500px"/></p>
+<img src="https://github.com/CurrencyConverterCalculator/iosCCC/blob/master/iosCCC.gif" width="360px"/>
 
 ## Transition And Blur
 
