@@ -33,7 +33,9 @@ struct CalculatorBrain {
     "÷" : Operation.binary({ $0 / $1 }),
     "+" : Operation.binary({ $0 + $1 }),
     "−" : Operation.binary({ $0 - $1 }),
-    "=" : Operation.equals
+    "=" : Operation.equals,
+    "%" : Operation.binary({$0.truncatingRemainder(dividingBy: $1)}),
+    "AC" : Operation.constant(0)
   ]
   
   mutating func performOperation(_ symbol: String) {
