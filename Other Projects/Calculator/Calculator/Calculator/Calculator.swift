@@ -13,11 +13,11 @@ struct Calculator: View {
   @State private var display = "0"
   @State private var brain = CalculatorBrain()
 
-  let data = [["+", "−", "÷", "×"],
-              ["π", "7", "8", "9"],
-              ["√", "4", "5", "6"],
-              ["cos", "1", "2", "3"],
-              ["±", ".", "0", "="]]
+  let data = [["AC","±", "%", "÷"],
+              ["7", "8", "9","×"],
+              ["4", "5", "6","-"],
+              ["1", "2", "3", "+"],
+              ["0", ".", "="]]
   
   var body: some View {
     let margin: CGFloat = 10
@@ -25,10 +25,12 @@ struct Calculator: View {
       HStack {
         Spacer()
         
-        Text(display)
-          .foregroundColor(Color(red: 231 / 255.0, green: 76 / 255.0, blue: 60 / 255.0))
-          .font(.largeTitle)
-          .frame(height: 50)
+        Button(action: {}){
+            Text(display)
+              .foregroundColor(Color(red: 231 / 255.0, green: 76 / 255.0, blue: 60 / 255.0))
+              .font(.largeTitle)
+              .frame(height: 120)
+        }.padding(.all)
         }
         .padding(margin)
       
@@ -36,6 +38,7 @@ struct Calculator: View {
         ForEach(data, id: \.description) { items in
           HStack(alignment: .center, spacing: margin) {
             ForEach(items, id: \.description) { item in
+            Button(action: {}){
               Text(item)
                 .font(.title)
                 .bold()
@@ -45,6 +48,8 @@ struct Calculator: View {
                 .onTapGesture {
                   self.touchAction(item)
               }
+    
+                }
             }
           }
         }
@@ -60,7 +65,9 @@ struct Calculator: View {
     } else {
       performOperation(symbol)
     }
+    
   }
+    
   
   private func touchDigit(_ digit: String) {
     print(#function)
