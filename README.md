@@ -232,8 +232,9 @@ For change state using `@State` as property:
 ### FlipClock-SwiftUI
 [Source](https://github.com/elpassion/FlipClock-SwiftUI)
 
-<img src="https://github.com/elpassion/FlipClock-SwiftUI/blob/master/Gifs/flip_clock_dark.gif" width="260">
-<img src="https://github.com/elpassion/FlipClock-SwiftUI/blob/master/Gifs/flip_clock_light.gif" width="260">
+|Light|Dark|
+|:-:|:-:|
+|<img src="https://github.com/elpassion/FlipClock-SwiftUI/blob/master/Gifs/flip_clock_light.gif" width="260">|<img src="https://github.com/elpassion/FlipClock-SwiftUI/blob/master/Gifs/flip_clock_dark.gif" width="260">|
 
 ### Authors
 
