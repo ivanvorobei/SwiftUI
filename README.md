@@ -52,7 +52,7 @@ and follow me on GitHub:
 - [SwiftUI Weather App](#SwiftUI-Weather)
 - [DesignCode SwiftUI App](https://github.com/mythxn/DesignCode)
 - [SwiftUI SlideToOpen](#MTSlideToOpen-SwiftUI)
-- [FlipClock][#FlipClock-SwiftUI]
+- [FlipClock-SwiftUI](#FlipClock-SwiftUI)
 
 Also include:
 - Movie
