@@ -53,6 +53,7 @@ and follow me on GitHub:
 - [DesignCode SwiftUI App](https://github.com/mythxn/DesignCode)
 - [SwiftUI SlideToOpen](#MTSlideToOpen-SwiftUI)
 - [Currency Converter & Calculator](#transition-and-blur)
+- [Countdown Film Clutter](#CountdownFilmClutter-SwiftUI)
 
 Also include:
 - Movie
@@ -234,6 +235,12 @@ For change state using `@State` as property:
 [Source](https://github.com/CurrencyConverterCalculator/iosCCC)
 
 <img src="https://github.com/CurrencyConverterCalculator/iosCCC/blob/master/iosCCC.gif" width="360px"/>
+
+### CountdownFilmClutter-SwiftUI
+
+[Source](https://github.com/elpassion/CountdownFilmClutter-SwiftUI)
+
+<img src="https://github.com/elpassion/CountdownFilmClutter-SwiftUI/blob/master/Gifs/countdown_film_clutter.gif">
 
 ### Authors
 
