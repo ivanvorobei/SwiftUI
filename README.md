@@ -52,6 +52,7 @@ and follow me on GitHub:
 - [SwiftUI Weather App](#SwiftUI-Weather)
 - [DesignCode SwiftUI App](https://github.com/mythxn/DesignCode)
 - [SwiftUI SlideToOpen](#MTSlideToOpen-SwiftUI)
+- [FlipClock-SwiftUI](#FlipClock-SwiftUI)
 - [Currency Converter & Calculator](#transition-and-blur)
 - [Countdown Film Clutter](#CountdownFilmClutter-SwiftUI)
 
@@ -229,6 +230,13 @@ For change state using `@State` as property:
 [Source](https://github.com/lemanhtien/MTSlideToOpen-SwiftUI)
 
 <a href="url"><img src="https://raw.githubusercontent.com/lemanhtien/MTSlideToOpen-SwiftUI/master/example.gif" align="center" height="500" ></a>
+
+### FlipClock-SwiftUI
+[Source](https://github.com/elpassion/FlipClock-SwiftUI)
+
+|Light|Dark|
+|:-:|:-:|
+|<img src="https://github.com/elpassion/FlipClock-SwiftUI/blob/master/Gifs/flip_clock_light.gif" width="260">|<img src="https://github.com/elpassion/FlipClock-SwiftUI/blob/master/Gifs/flip_clock_dark.gif" width="260">|
 
 ### Currency Converter & Calculator
 
