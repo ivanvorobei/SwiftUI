@@ -250,6 +250,14 @@ For change state using `@State` as property:
 
 <img src="https://github.com/elpassion/CountdownFilmClutter-SwiftUI/blob/master/Gifs/countdown_film_clutter.gif">
 
+### SpotlightSearch
+[Source](https://github.com/boraseoksoon/SpotlightSearch)
+
+|Light|Dark|
+|:-:|:-:|
+|<img src="https://github.com/boraseoksoon/SpotlightSearch/blob/master/gif/white_theme.gif" width="260">|<img src="https://github.com/boraseoksoon/SpotlightSearch/blob/master/gif/dark_theme.gif" width="260">|
+
+
 ### Authors
 
 Thanks for [Jinxiansen](https://github.com/Jinxiansen), [ra1028](https://github.com/ra1028), [timdonnelly](https://github.com/timdonnelly), [TwoLivesLeft](https://github.com/TwoLivesLeft), [devxoul](https://github.com/devxoul), [cmtrounce](https://github.com/cmtrounce), [unixzii](https://github.com/unixzii), [ra1028](https://github.com/ra1028) for examples project.
