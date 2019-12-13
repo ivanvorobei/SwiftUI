@@ -55,6 +55,7 @@ and follow me on GitHub:
 - [FlipClock-SwiftUI](#FlipClock-SwiftUI)
 - [Currency Converter & Calculator](#transition-and-blur)
 - [Countdown Film Clutter](#CountdownFilmClutter-SwiftUI)
+- [SpotlightSearch](#SpotlightSearch)
 
 Also include:
 - Movie
