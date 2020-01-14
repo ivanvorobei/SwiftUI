@@ -179,6 +179,12 @@ For change state using `@State` as property:
 
 <img src="Resources/GitHubSearch.png" width="270">
 
+### SwiftUI Weather App with MVVM and CoreML
+
+[Source](https://github.com/necatievrenyasar/SwiftUI-WeatherApp)
+
+<img src="https://user-images.githubusercontent.com/1447937/72296817-96f10580-366b-11ea-957c-023efeac958f.png" width="300">
+
 ### Time Travel
 
 <img src="Resources/TimeTravel.gif" width="250">
