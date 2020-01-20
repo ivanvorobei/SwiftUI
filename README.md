@@ -208,6 +208,8 @@ For change state using `@State` as property:
 
 ### SwiftUI SideMenu
 
+[Source](https://github.com/Vidhyadharan24/SideMenu)
+
 <img src="Resources/SwiftUISideMenu.gif" width="300">
 
 ### SwiftUI Currency
