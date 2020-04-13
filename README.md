@@ -56,6 +56,7 @@ and follow me on GitHub:
 - [Currency Converter & Calculator](#transition-and-blur)
 - [Countdown Film Clutter](#CountdownFilmClutter-SwiftUI)
 - [SpotlightSearch](#SpotlightSearch)
+- [Growing text view in SwiftUI](#Growing-text-view-in-SwiftUI)
 
 Also include:
 - Movie
@@ -260,6 +261,10 @@ For change state using `@State` as property:
 |:-:|:-:|
 |<img src="https://github.com/boraseoksoon/SpotlightSearch/blob/master/gif/white_theme.gif" width="260">|<img src="https://github.com/boraseoksoon/SpotlightSearch/blob/master/gif/dark_theme.gif" width="260">|
 
+### Growing text view in SwiftUI
+[Source](https://github.com/Zaprogramiacz/GrowingTextView)
+
+<img src="https://github.com/Zaprogramiacz/GrowingTextView/blob/master/Resources/growing_text_view.gif">
 
 ### Authors
 
