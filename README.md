@@ -24,6 +24,7 @@ and follow me on GitHub:
 
 #### Other projects
 
+- [Calculator Clone for iPadOS](https://github.com/bofeiw/ios-calculator-clone-for-ipados)
 - [Transition And Blur](#transition-and-blur)
 - [2048 Game](#2048-game)
 - [SFSymbols](#sfsymbols)
