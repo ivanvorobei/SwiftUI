@@ -58,6 +58,7 @@ and follow me on GitHub:
 - [Countdown Film Clutter](#CountdownFilmClutter-SwiftUI)
 - [SpotlightSearch](#SpotlightSearch)
 - [Growing text view in SwiftUI](#Growing-text-view-in-SwiftUI)
+- [MGFlipView](#MGFlipView)
 
 Also include:
 - Movie
@@ -272,6 +273,11 @@ For change state using `@State` as property:
 [Source](https://github.com/Zaprogramiacz/GrowingTextView)
 
 <img src="https://github.com/Zaprogramiacz/GrowingTextView/blob/master/Resources/growing_text_view.gif">
+
+### MGFlipView
+[Source](https://github.com/Zaprogramiacz/MGFlipView)
+
+<img src="https://github.com/Zaprogramiacz/MGFlipView/blob/master/Examples/flip_view_example.gif">
 
 ### Authors
 
