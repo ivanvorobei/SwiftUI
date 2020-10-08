@@ -59,6 +59,7 @@ and follow me on GitHub:
 - [SpotlightSearch](#SpotlightSearch)
 - [Growing text view in SwiftUI](#Growing-text-view-in-SwiftUI)
 - [MGFlipView](#MGFlipView)
+- [SwiftUI App with Core Data in XCode 12](#SwiftUI-App-with-Core-Data-in-XCode-12)
 
 Also include:
 - Movie
@@ -278,6 +279,9 @@ For change state using `@State` as property:
 [Source](https://github.com/Zaprogramiacz/MGFlipView)
 
 <img src="https://github.com/Zaprogramiacz/MGFlipView/blob/master/Examples/flip_view_example.gif">
+
+### SwiftUI App with Core Data in XCode 12
+[Source](https://github.com/bmaciag/SwiftUI-App-with-Core-Data)
 
 ### Authors
 
