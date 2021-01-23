@@ -242,8 +242,7 @@ For change state using `@State` as property:
 
 [Source](https://github.com/CurrencyConverterCalculator/iosCCC)
 
-<img src="https://github.com/CurrencyConverterCalculator/iosCCC/blob/master/iosCCC.gif" width="360px"/>
-
+<img src="https://github.com/CurrencyConverterCalculator/iosCCC/blob/master/dark.gif" width="320px"/> <img src="https://github.com/CurrencyConverterCalculator/iosCCC/blob/master/light.gif" width="320px"/>
 ### FlipClock-SwiftUI
 [Source](https://github.com/elpassion/FlipClock-SwiftUI)
 
