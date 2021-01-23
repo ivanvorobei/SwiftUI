@@ -24,7 +24,6 @@ and follow me on GitHub:
 
 #### Other projects
 
-- [Calculator Clone for iPadOS](https://github.com/bofeiw/ios-calculator-clone-for-ipados)
 - [Transition And Blur](#transition-and-blur)
 - [2048 Game](#2048-game)
 - [SFSymbols](#sfsymbols)
@@ -46,18 +45,19 @@ and follow me on GitHub:
 - [Animating Views And Transitions](#animating-views-and-transitions)
 - [Jike](#jike)
 - [Flux](#flux)
-- [SwiftUI Download Progress View](#SwiftUIDownloadView)
 - [PureGenius](#puregenius)
+- [SwiftUI Download Progress View](#SwiftUIDownloadView)
 - [SwiftUI SideMenu](#SwiftUI-SideMenu)
 - [SwiftUI Currency App](#SwiftUI-Currency)
 - [SwiftUI Weather App](#SwiftUI-Weather)
 - [DesignCode SwiftUI App](https://github.com/mythxn/DesignCode)
 - [SwiftUI SlideToOpen](#MTSlideToOpen-SwiftUI)
-- [FlipClock-SwiftUI](#FlipClock-SwiftUI)
 - [Currency Converter & Calculator](#transition-and-blur)
+- [FlipClock-SwiftUI](#FlipClock-SwiftUI)
 - [Countdown Film Clutter](#CountdownFilmClutter-SwiftUI)
 - [SpotlightSearch](#SpotlightSearch)
 - [Growing text view in SwiftUI](#Growing-text-view-in-SwiftUI)
+- [Calculator Clone for iPadOS](https://github.com/bofeiw/ios-calculator-clone-for-ipados)
 - [MGFlipView](#MGFlipView)
 
 Also include:
@@ -182,12 +182,6 @@ For change state using `@State` as property:
 
 <img src="Resources/GitHubSearch.png" width="270">
 
-### SwiftUI Weather App with MVVM and CoreML
-
-[Source](https://github.com/necatievrenyasar/SwiftUI-WeatherApp)
-
-<img src="https://user-images.githubusercontent.com/1447937/72296817-96f10580-366b-11ea-957c-023efeac958f.png" width="300">
-
 ### Time Travel
 
 <img src="Resources/TimeTravel.gif" width="250">
@@ -208,12 +202,13 @@ For change state using `@State` as property:
 
 <img src="Resources/Flux.gif" width="260">
 
-### SwiftUIDownloadView
-
-<img src="Resources/SwiftUIDownloadView.gif" width="294">
 #### PureGenius
 
 <img src="Resources/PureGenius.gif" width="260">
+
+### SwiftUIDownloadView
+
+<img src="Resources/SwiftUIDownloadView.gif" width="294">
 
 ### SwiftUI SideMenu
 
@@ -243,18 +238,18 @@ For change state using `@State` as property:
 
 <a href="url"><img src="https://raw.githubusercontent.com/lemanhtien/MTSlideToOpen-SwiftUI/master/example.gif" align="center" height="500" ></a>
 
+### Currency Converter & Calculator
+
+[Source](https://github.com/CurrencyConverterCalculator/iosCCC)
+
+<img src="https://github.com/CurrencyConverterCalculator/iosCCC/blob/master/iosCCC.gif" width="360px"/>
+
 ### FlipClock-SwiftUI
 [Source](https://github.com/elpassion/FlipClock-SwiftUI)
 
 |Light|Dark|
 |:-:|:-:|
 |<img src="https://github.com/elpassion/FlipClock-SwiftUI/blob/master/Gifs/flip_clock_light.gif" width="260">|<img src="https://github.com/elpassion/FlipClock-SwiftUI/blob/master/Gifs/flip_clock_dark.gif" width="260">|
-
-### Currency Converter & Calculator
-
-[Source](https://github.com/CurrencyConverterCalculator/iosCCC)
-
-<img src="https://github.com/CurrencyConverterCalculator/iosCCC/blob/master/iosCCC.gif" width="360px"/>
 
 ### CountdownFilmClutter-SwiftUI
 
@@ -268,6 +263,12 @@ For change state using `@State` as property:
 |Light|Dark|
 |:-:|:-:|
 |<img src="https://github.com/boraseoksoon/SpotlightSearch/blob/master/gif/white_theme.gif" width="260">|<img src="https://github.com/boraseoksoon/SpotlightSearch/blob/master/gif/dark_theme.gif" width="260">|
+
+### SwiftUI Weather App with MVVM and CoreML
+
+[Source](https://github.com/necatievrenyasar/SwiftUI-WeatherApp)
+
+<img src="https://user-images.githubusercontent.com/1447937/72296817-96f10580-366b-11ea-957c-023efeac958f.png" width="300">
 
 ### Growing text view in SwiftUI
 [Source](https://github.com/Zaprogramiacz/GrowingTextView)
