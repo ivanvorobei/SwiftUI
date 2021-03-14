@@ -71,13 +71,14 @@ struct BlockGridView : View {
             ForEach(
                 self.matrix.flatten.map { IdentifiableIndexedBlock(indexedBlock: $0) }
             ) { block in
-                self.createBlock(block.item)
+                self.createBlock(block.indexedBlock.item)
                     .frame(width: 65, height: 65, alignment: .center)
-                    .position(x: CGFloat(block.index.0) * (65 + 12) + 32.5 + 12,
-                              y: CGFloat(block.index.1) * (65 + 12) + 32.5 + 12)
-                    .zIndex(self.zIndex(block.item))
+                    .position(x: CGFloat(block.indexedBlock.index.0) * (65 + 12) + 32.5 + 12,
+                              y: CGFloat(block.indexedBlock.index.1) * (65 + 12) + 32.5 + 12)
+                    .zIndex(self.zIndex(block.indexedBlock.item))
                     .transition(.blockAppear(from: self.blockEnterEdge))
-//                    .animation(block.item == nil ? nil : .spring(mass: 1, stiffness: 400, damping: 56, initialVelocity: 0))
+                    .animation(block.indexedBlock.item == nil ? nil : .spring())
+//                    .animation(block.indexedBlock.item == nil ? nil : .spring(mass: 1, stiffness: 400, damping: 56, initialVelocity: 0))
             }
         }
         .frame(width: 320, height: 320, alignment: .center)
