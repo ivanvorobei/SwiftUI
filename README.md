@@ -8,9 +8,7 @@ Examples projects using `SwiftUI` & `Combine`.
 Include Layout, UI, Animations, Gestures, Draw and Data. See projects files in `Files` & `Other Projects` folders. If you have project, make a pull request or create issue with link to repo.
 
 Interested in UI and animations in `UIKit`?  
-See [awesome-ios-ui](https://github.com/ivanvorobei/awesome-ios-ui) pack with UI elements:
-
-[![awesome-ios-ui](https://github.com/ivanvorobei/SPPermissions/blob/master/Assets/Buttons/awesome-ios-ui.svg)](https://github.com/ivanvorobei/awesome-ios-ui)
+See [awesome-ios-ui](https://github.com/ivanvorobei/awesome-ios-ui) pack with UI elements.
 
 If you like the project, do not forget to `put star ★`  
 and follow me on GitHub:
