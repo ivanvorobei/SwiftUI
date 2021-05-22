@@ -5,7 +5,9 @@
 ### About
 
 Examples projects using `SwiftUI` & `Combine`.  
-Include Layout, UI, Animations, Gestures, Draw and Data. See projects files in `Files` & `Other Projects` folders. If you have project, make a pull request or create issue with link to repo.
+Include Layout, UI, Animations, Gestures, Draw and Data.
+
+See projects files in `Files` & `Other Projects` folders. If you have project, make a pull request or create issue with link to repo.
 
 Interested in UI and animations in `UIKit`?  
 See [awesome-ios-ui](https://github.com/ivanvorobei/awesome-ios-ui) pack with UI elements.
@@ -301,7 +303,6 @@ Collection of native Swift extensions to boost your development. Support tvOS an
 ## Russian-specking Community
 
 В телеграм-канале [Код Воробья](https://sparrowcode.by/telegram) пишу о iOS разработке. Помощь можно найти в [нашем чате](https://sparrowcode.by/telegram/chat).
-
 Видео-туториалы выклыдываю на [YouTube](https://sparrowcode.by/youtube):
 
 [![Tutorials on YouTube](https://cdn.ivanvorobei.by/github/readme/youtube-preview.jpg)](https://sparrowcode.by/youtube)
