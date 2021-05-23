@@ -300,6 +300,9 @@ Simplifies working with animated changes in table and collections. Apple's diffa
 #### [SparrowKit](https://github.com/ivanvorobei/SparrowKit)
 Collection of native Swift extensions to boost your development. Support tvOS and watchOS.
 
+#### [SPIndicator](https://github.com/ivanvorobei/SPIndicator)
+Floating indicator, mimicrate to indicator which appear when silent mode turn on / off. Support large texts and has ready-use animatable icons like `done` and `error`.
+
 ## Russian-specking Community
 
 В телеграм-канале [Код Воробья](https://sparrowcode.by/telegram) пишу о iOS разработке. Помощь можно найти в [нашем чате](https://sparrowcode.by/telegram/chat).
