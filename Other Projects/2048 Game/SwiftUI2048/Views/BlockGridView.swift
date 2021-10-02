@@ -83,7 +83,7 @@ struct BlockGridView : View {
         .frame(width: 320, height: 320, alignment: .center)
         .background(
             Rectangle()
-                .fill(Color(red:0.72, green:0.66, blue:0.63, opacity:1.00))
+                .fill(Color.black.opacity(0.4))
         )
         .clipped()
         .cornerRadius(6)

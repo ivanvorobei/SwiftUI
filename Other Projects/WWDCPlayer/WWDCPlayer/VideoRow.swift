@@ -32,7 +32,7 @@ struct VideoRow : View {
                 }
                 
                 Image(systemName: video.isFavorite ? "star.fill" : "star")
-                    .foregroundColor(video.isFavorite ? Color.yellow : Color.gray)
+                    .foregroundColor(video.isFavorite ? Color.yellow : Color.black.opacity(0.4))
                     .onTapGesture {
                         self.setFavorite(video: self.video)
                     }
@@ -81,7 +81,7 @@ struct DescriptionText : View {
     let text: String
     var body: some View {
         return Text(text)
-            .font(.footnote).fontWeight(.semibold)
+            .font(.caption).fontWeight(.semibold)
             .foregroundColor(.secondary)
     }
 }
