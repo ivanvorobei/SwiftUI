@@ -65,6 +65,7 @@ If you like the project, don't forget to `put star ★` and follow me on GitHub:
 - [Growing text view in SwiftUI](#Growing-text-view-in-SwiftUI)
 - [Calculator Clone for iPadOS](https://github.com/bofeiw/ios-calculator-clone-for-ipados)
 - [MGFlipView](#MGFlipView)
+- [Calendar](#clendar)
 
 Also include:
 - Movie
@@ -284,6 +285,13 @@ For change state using `@State` as property:
 [Source](https://github.com/Zaprogramiacz/MGFlipView)
 
 <img src="https://github.com/Zaprogramiacz/MGFlipView/blob/master/Examples/flip_view_example.gif">
+
+### Clendar 
+[Source](https://github.com/vinhnx/Clendar)
+
+|Light|Dark|
+|:-:|:-:|
+|<img src="https://user-images.githubusercontent.com/1097578/143700120-e377dc4c-51c0-4089-9295-b5cd4da95f41.png" width="260">|<img src="https://user-images.githubusercontent.com/1097578/143703321-bb867392-e0c5-4f67-93a0-e299164b0acf.png" width="260">|
 
 ### Authors
 
