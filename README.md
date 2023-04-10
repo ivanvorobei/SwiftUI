@@ -14,12 +14,20 @@ See [awesome-ios-ui](https://github.com/ivanvorobei/awesome-ios-ui) pack with UI
 
 If you like the project, don't forget to `put star ★` and follow me on GitHub:
 
+### Community
+
 <p float="left">
-    <a href="https://github.com/ivanvorobei">
-        <img src="https://github.com/ivanvorobei/Readme/blob/main/Buttons/follow-me-ivanvorobei.svg">
+    <a href="https://twitter.com/sparrowcode_en">
+        <img src="https://cdn.sparrowcode.io/github%2Fbadges%2Ftwitter.png?version=4" height="52">
     </a>
-    <a href="https://opensource.ivanvorobei.by">
-        <img src="https://github.com/ivanvorobei/Readme/blob/main/Buttons/more-libraries.svg">
+    <a href="https://t.me/sparrowcode_en">
+        <img src="https://cdn.sparrowcode.io/github/badges/telegram.png?version=1" height="52">
+    </a>
+    <a href="https://mastodon.social/@sparrowcode_en">
+        <img src="https://cdn.sparrowcode.io/github/badges/mastodon.png?version=2" height="52">
+    </a>
+    <a href="#apps-using">
+        <img src="https://cdn.sparrowcode.io/github/badges/download-on-the-appstore.png?version=4" height="52">
     </a>
 </p>
 
